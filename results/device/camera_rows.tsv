@@ -1,0 +1,699 @@
+board	scene	policy	repeat	role	result	selection_source	selection_reason	timestamp	measured_started_at	measured_ended_at	board_identity	os	kernel	runtime	runtime_version	threads	imgsz	model	detector_conf	gate_threshold	gate_model	power_profile	source_result_sha256	source_summary_sha256	artifact_hashes_checked	mean_W	energy_J	power_duration_s	power_samples	power_errors	max_power_gap_s	detector_calls	decisions_in_power_interval	decisions_per_s	gross_mJ_per_detector_decision	positive_detector_decisions	positive_fraction_of_detector_calls	valid_ticks	unknown_ticks	ticks	gate_evaluations	gate_open_evaluations	capture_counts	missed_deadlines	stale_ticks	setup	measurement_scope	imgsz_provenance	model_hash	engine_provenance	head_sha256	l4t	precision
+orin	rip	detector_only	selected	primary	night_camera_20260910/orin/cases/rip_detector_only_repeat/result.json	night_camera_20260910/orin/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-10T23:08:36+03:00	2026-09-10T23:18:36+03:00	NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super	"PRETTY_NAME=""Ubuntu 22.04.5 LTS""
+NAME=""Ubuntu""
+VERSION_ID=""22.04""
+VERSION=""22.04.5 LTS (Jammy Jellyfish)""
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+UBUNTU_CODENAME=jammy
+"	5.15.148-tegra	TensorRT CUDA	10.3.0	4	384	"{""md5"": ""5b3605dd1bd562623607c3c9a250a655"", ""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan""}"	0.23		null	"2026-09-10T23:08:31+03:00
+NV Power Mode: 7W
+1
+0-3
+690ab255ffd07aa342e99bc2d5567f0802b54c3dc3cac10e234afd8192d6be81  /etc/nvpmodel.conf
+"	2d4144f4d26dc64206dbe2d782a61177dd6a7076122ab45c7dc5df3071477bab	beb14eba7ad695d4865420610bb8d20e5661020c0c6a6e5232aba8de2b25d012	10	6.906638660817697	4141.407298324611	599.6270402590162	601	0	1.0192959739943035	598	598	0.9972865795740076	6925.430264756874	598	1.0	598	2	600	0	0	"{""dequeued"": 18022, ""jpeg_bad"": 2, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18020}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Recorded by date at write time after user confirmation in this conversation"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms rip current video running on Orin camera transfer; continuous repeat previously specified"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-10T22:30:44+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Executed adapter MD5 matches night_camera_20260910/orin/provenance/run_rip_detector_only_repeat.py; explicit preprocessing384	651962750eded9eb60c0958d0a7b30af	"{""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan"", ""md5"": ""5b3605dd1bd562623607c3c9a250a655""}"		"# R36 (release), REVISION: 4.2, GCID: 38685322, BOARD: generic, EABI: aarch64, DATE: Fri Dec 13 00:16:27 UTC 2024
+# KERNEL_VARIANT: oot
+TARGET_USERSPACE_LIB_DIR=nvidia
+TARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia
+"	FP16
+orin	rip	cascade	selected	primary	night_camera_20260910/orin/cases/rip_cascade_recovered/result.json	night_camera_20260910/orin/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-10T22:44:31+03:00	2026-09-10T22:54:31+03:00	NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super	"PRETTY_NAME=""Ubuntu 22.04.5 LTS""
+NAME=""Ubuntu""
+VERSION_ID=""22.04""
+VERSION=""22.04.5 LTS (Jammy Jellyfish)""
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+UBUNTU_CODENAME=jammy
+"	5.15.148-tegra	TensorRT CUDA	10.3.0	4	384	"{""md5"": ""5b3605dd1bd562623607c3c9a250a655"", ""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"	"2026-09-10T22:44:25+03:00
+NV Power Mode: 7W
+1
+0-3
+690ab255ffd07aa342e99bc2d5567f0802b54c3dc3cac10e234afd8192d6be81  /etc/nvpmodel.conf
+"	6c725573be18ae67f656c1dd0cef4f5d484f0c9c176f8a5ebdd6cf2911a91eba	e50da20f9d4d7466ab85a380893721df95a561d90b225c2bc794a2e94fa9af4d	11	6.893740439401162	4133.500894248927	599.6020492190146	601	0	1.0152752700087149	566	566	0.9439594156444571	7303.005113514005	566	1.0	599	1	600	599	566	"{""dequeued"": 18024, ""jpeg_bad"": 2, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18022}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Recorded by date at write time after user confirmation in this conversation"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms rip current video running on Orin camera transfer; continuous repeat previously specified"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-10T22:30:44+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Executed adapter MD5 matches night_camera_20260910/orin/provenance/run_rip_cascade.py; explicit preprocessing384	651962750eded9eb60c0958d0a7b30af	"{""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan"", ""md5"": ""5b3605dd1bd562623607c3c9a250a655""}"		"# R36 (release), REVISION: 4.2, GCID: 38685322, BOARD: generic, EABI: aarch64, DATE: Fri Dec 13 00:16:27 UTC 2024
+# KERNEL_VARIANT: oot
+TARGET_USERSPACE_LIB_DIR=nvidia
+TARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia
+"	FP16
+orin	rip	adaptive	selected	primary	night_camera_20260910/orin/cases/rip_adaptive/result.json	night_camera_20260910/orin/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-10T22:58:27+03:00	2026-09-10T23:08:27+03:00	NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super	"PRETTY_NAME=""Ubuntu 22.04.5 LTS""
+NAME=""Ubuntu""
+VERSION_ID=""22.04""
+VERSION=""22.04.5 LTS (Jammy Jellyfish)""
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+UBUNTU_CODENAME=jammy
+"	5.15.148-tegra	TensorRT CUDA	10.3.0	4	384	"{""md5"": ""5b3605dd1bd562623607c3c9a250a655"", ""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan""}"	0.23		null	"2026-09-10T22:58:21+03:00
+NV Power Mode: 7W
+1
+0-3
+690ab255ffd07aa342e99bc2d5567f0802b54c3dc3cac10e234afd8192d6be81  /etc/nvpmodel.conf
+"	0cceb81185d05bd50863347483e75e0236f56de848488801f6753c750291f7f4	05d9409afc4df6daa9dd88083af55a485b00c3456eab3d1f7365e1512ea51036	10	6.899896170331193	4138.045046285962	599.7256979139929	601	0	1.0357849069987424	599	599	0.9987899502780736	6908.255502981572	599	1.0	599	1	600	0	0	"{""dequeued"": 18023, ""jpeg_bad"": 4, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18019}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Recorded by date at write time after user confirmation in this conversation"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms rip current video running on Orin camera transfer; continuous repeat previously specified"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-10T22:30:44+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Executed adapter MD5 matches night_camera_20260910/orin/provenance/run_rip_adaptive.py; explicit preprocessing384	651962750eded9eb60c0958d0a7b30af	"{""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan"", ""md5"": ""5b3605dd1bd562623607c3c9a250a655""}"		"# R36 (release), REVISION: 4.2, GCID: 38685322, BOARD: generic, EABI: aarch64, DATE: Fri Dec 13 00:16:27 UTC 2024
+# KERNEL_VARIANT: oot
+TARGET_USERSPACE_LIB_DIR=nvidia
+TARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia
+"	FP16
+orin	rip	max_throughput	selected	primary	night_camera_20260910/orin/cases/rip_max_throughput_attempt03/result.json	night_camera_20260910/orin/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-10T23:28:04+03:00	2026-09-10T23:38:04+03:00	NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super	"PRETTY_NAME=""Ubuntu 22.04.5 LTS""
+NAME=""Ubuntu""
+VERSION_ID=""22.04""
+VERSION=""22.04.5 LTS (Jammy Jellyfish)""
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+UBUNTU_CODENAME=jammy
+"	5.15.148-tegra	TensorRT CUDA	10.3.0	4	384	"{""md5"": ""5b3605dd1bd562623607c3c9a250a655"", ""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan""}"	0.23		null	"2026-09-10T23:28:01+03:00
+NV Power Mode: MAXN
+2
+CPU online: 0-5
+"	ac7b4928e1a04a0f8c4ac14b7881b628b6607edaabdb264eafb4e352d8d4a227	282b0f2b62810fb44a4e638ec40403a4e5bf057f2c992cc9642aeb769da413f6	20	9.257953027551736	5551.1486792949	599.608645969	601	0	1.013784118999979	11190	11184	18.65216600058535	496.34734256928647	11190	1.0	11190	0	11190	0	0	"{""dequeued"": 18024, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18024}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Recorded by date at write time after user confirmation in this conversation"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms rip current video running on Orin camera transfer; continuous repeat previously specified"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-10T22:30:44+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Executed adapter MD5 matches night_camera_20260910/orin/provenance/run_rip_max_throughput.py; explicit preprocessing384	651962750eded9eb60c0958d0a7b30af	"{""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan"", ""md5"": ""5b3605dd1bd562623607c3c9a250a655""}"		"# R36 (release), REVISION: 4.2, GCID: 38685322, BOARD: generic, EABI: aarch64, DATE: Fri Dec 13 00:16:27 UTC 2024
+# KERNEL_VARIANT: oot
+TARGET_USERSPACE_LIB_DIR=nvidia
+TARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia
+"	FP16
+orin	norip	detector_only	selected	primary	night_camera_20260910/orin/cases/norip_detector_only_attempt02/result.json	night_camera_20260910/orin/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-10T23:49:55+03:00	2026-09-10T23:59:55+03:00	NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super	"PRETTY_NAME=""Ubuntu 22.04.5 LTS""
+NAME=""Ubuntu""
+VERSION_ID=""22.04""
+VERSION=""22.04.5 LTS (Jammy Jellyfish)""
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+UBUNTU_CODENAME=jammy
+"	5.15.148-tegra	TensorRT CUDA	10.3.0	4	384	"{""md5"": ""5b3605dd1bd562623607c3c9a250a655"", ""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan""}"	0.23		null	"2026-09-10T23:49:48+03:00
+NV Power Mode: 7W
+1
+0-3
+690ab255ffd07aa342e99bc2d5567f0802b54c3dc3cac10e234afd8192d6be81  /etc/nvpmodel.conf
+"	9b606190654505901a6794be40a31ed6ddd73b2f4c21ee7e59a3633576c4810c	a6f5a11eda660b3d293ee4843f17254889e86ec2d70124495dab228ed7c609ae	10	6.901487518727628	4139.137795550149	599.745748191	601	0	1.0534410069999467	599	599	0.9987565594366457	6910.079792237311	33	0.05509181969949917	599	1	600	0	0	"{""dequeued"": 18020, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18020}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user no-rip playback confirmation"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms switched to no-rip and started playback, following request for continuous repeat; webcam remains on Orin"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-10T23:43:11+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Executed adapter MD5 matches night_camera_20260910/orin/provenance/run_norip_detector_only.py; explicit preprocessing384	651962750eded9eb60c0958d0a7b30af	"{""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan"", ""md5"": ""5b3605dd1bd562623607c3c9a250a655""}"		"# R36 (release), REVISION: 4.2, GCID: 38685322, BOARD: generic, EABI: aarch64, DATE: Fri Dec 13 00:16:27 UTC 2024
+# KERNEL_VARIANT: oot
+TARGET_USERSPACE_LIB_DIR=nvidia
+TARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia
+"	FP16
+orin	norip	cascade	selected	primary	night_camera_20260910/orin/cases/norip_cascade/result.json	night_camera_20260910/orin/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T00:00:03+03:00	2026-09-11T00:10:03+03:00	NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super	"PRETTY_NAME=""Ubuntu 22.04.5 LTS""
+NAME=""Ubuntu""
+VERSION_ID=""22.04""
+VERSION=""22.04.5 LTS (Jammy Jellyfish)""
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+UBUNTU_CODENAME=jammy
+"	5.15.148-tegra	TensorRT CUDA	10.3.0	4	384	"{""md5"": ""5b3605dd1bd562623607c3c9a250a655"", ""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"	"2026-09-10T23:59:57+03:00
+NV Power Mode: 7W
+1
+0-3
+690ab255ffd07aa342e99bc2d5567f0802b54c3dc3cac10e234afd8192d6be81  /etc/nvpmodel.conf
+"	bc8f15d67c4f5cc8b23119c15e306fc958572b947063fc8ea73d5efd17c7aded	5848388e0ea727d718dd30505e8fdba25fb01a133bc1750828f988b9355e39e7	11	6.722793509884968	4031.8552957433503	599.729158692	601	0	1.028560729999981	0	0	0.0		0		599	1	600	599	0	"{""dequeued"": 18023, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18023}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user no-rip playback confirmation"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms switched to no-rip and started playback, following request for continuous repeat; webcam remains on Orin"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-10T23:43:11+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Executed adapter MD5 matches night_camera_20260910/orin/provenance/run_norip_cascade.py; explicit preprocessing384	651962750eded9eb60c0958d0a7b30af	"{""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan"", ""md5"": ""5b3605dd1bd562623607c3c9a250a655""}"		"# R36 (release), REVISION: 4.2, GCID: 38685322, BOARD: generic, EABI: aarch64, DATE: Fri Dec 13 00:16:27 UTC 2024
+# KERNEL_VARIANT: oot
+TARGET_USERSPACE_LIB_DIR=nvidia
+TARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia
+"	FP16
+orin	norip	adaptive	selected	primary	night_camera_20260910/orin/cases/norip_adaptive/result.json	night_camera_20260910/orin/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T00:10:11+03:00	2026-09-11T00:20:11+03:00	NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super	"PRETTY_NAME=""Ubuntu 22.04.5 LTS""
+NAME=""Ubuntu""
+VERSION_ID=""22.04""
+VERSION=""22.04.5 LTS (Jammy Jellyfish)""
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+UBUNTU_CODENAME=jammy
+"	5.15.148-tegra	TensorRT CUDA	10.3.0	4	384	"{""md5"": ""5b3605dd1bd562623607c3c9a250a655"", ""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan""}"	0.23		null	"2026-09-11T00:10:06+03:00
+NV Power Mode: 7W
+1
+0-3
+690ab255ffd07aa342e99bc2d5567f0802b54c3dc3cac10e234afd8192d6be81  /etc/nvpmodel.conf
+"	d3bcfe9fbac116ee776e32f45aea00d6b9c6ae94c89d29b58d292bef7bb4260a	e99149e5f442da0467e326fd563d4f8facb2ebd89d88626b7dd822502e0fb909	10	6.8429514254416555	4104.3049981939985	599.7857858429998	601	0	2.421414331000051	167	167	0.27843274039127364	24576.676635892207	15	0.08982035928143713	167	1	168	0	0	"{""dequeued"": 18020, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18020}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user no-rip playback confirmation"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms switched to no-rip and started playback, following request for continuous repeat; webcam remains on Orin"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-10T23:43:11+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Executed adapter MD5 matches night_camera_20260910/orin/provenance/run_norip_adaptive.py; explicit preprocessing384	651962750eded9eb60c0958d0a7b30af	"{""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan"", ""md5"": ""5b3605dd1bd562623607c3c9a250a655""}"		"# R36 (release), REVISION: 4.2, GCID: 38685322, BOARD: generic, EABI: aarch64, DATE: Fri Dec 13 00:16:27 UTC 2024
+# KERNEL_VARIANT: oot
+TARGET_USERSPACE_LIB_DIR=nvidia
+TARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia
+"	FP16
+orin	norip	max_throughput	selected	primary	night_camera_20260910/orin/cases/norip_max_throughput_after_reboot/result.json	night_camera_20260910/orin/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T00:26:31+03:00	2026-09-11T00:36:31+03:00	NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super	"PRETTY_NAME=""Ubuntu 22.04.5 LTS""
+NAME=""Ubuntu""
+VERSION_ID=""22.04""
+VERSION=""22.04.5 LTS (Jammy Jellyfish)""
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+UBUNTU_CODENAME=jammy
+"	5.15.148-tegra	TensorRT CUDA	10.3.0	4	384	"{""md5"": ""5b3605dd1bd562623607c3c9a250a655"", ""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan""}"	0.23		null	"2026-09-11T00:26:28+03:00
+NV Power Mode: MAXN
+2
+CPU online: 0-5
+"	2556e47b5dca73da060d1ebbff8de4362ca77eb61c9ebe5ed431b58e85812292	a1edf1cf39f06531a249fb1f21b03589cb5458ae6c0d526e29b34409841cd40a	20	9.177805664465792	5505.58459195365	599.88027566	601	0	1.0214896429999953	11182	11180	18.63705218128658	492.4494268294856	542	0.04847075657306385	11182	0	11182	0	0	"{""dequeued"": 18023, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18023}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user no-rip playback confirmation"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms switched to no-rip and started playback, following request for continuous repeat; webcam remains on Orin"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-10T23:43:11+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Executed adapter MD5 matches night_camera_20260910/orin/provenance/run_norip_max_throughput.py; explicit preprocessing384	651962750eded9eb60c0958d0a7b30af	"{""path"": ""/home/user/device_runs/orin_expanded/engines/rfdetr_384_fp16.plan"", ""md5"": ""5b3605dd1bd562623607c3c9a250a655""}"		"# R36 (release), REVISION: 4.2, GCID: 38685322, BOARD: generic, EABI: aarch64, DATE: Fri Dec 13 00:16:27 UTC 2024
+# KERNEL_VARIANT: oot
+TARGET_USERSPACE_LIB_DIR=nvidia
+TARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia
+"	FP16
+nano	rip	detector_only	selected	primary	night_camera_20260910/nano/cases/rip_detector_only/result.json	night_camera_20260910/nano/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T01:38:18+02:00	2026-09-11T01:48:18+02:00	NVIDIA Jetson Nano Developer Kit	"NAME=""Ubuntu""
+VERSION=""18.04.6 LTS (Bionic Beaver)""
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME=""Ubuntu 18.04.6 LTS""
+VERSION_ID=""18.04""
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+"	4.9.253-tegra	TensorRT CUDA10.2 ctypes transport	8.2.1.8	4	384	"""/home/user/device_runs/nano_extended_20260907/models/canon_bfi_s_s1_best_e1_384_trt82.onnx"""	0.07		null	"NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+NVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13
+NVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap
+"	e9a757079b12812faafb729558cfe05d7beea74db2f0fb3f996d0dd129645c3f	dba8551fabcd4f0e44a5a61850764d9e5fb43dcd2ecbbec7f184cd0628a76d50	7	5.71068404169468	3424.8783030768536	599.7317095590006	601	0	1.0126406580002367	597	597	0.9954451140143827	5736.81457801818	586	0.981574539363484	597	2	599	0	0	"{""dequeued"": 16795, ""jpeg_bad"": 2, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 16793}"	1	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed webcam moved to classic Nano and rip playback"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-0892724594a0"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms webcam connected to classic Jetson Nano and rip video playing after request for continuous repeat"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-11T02:36:21+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	5856162eed8d03571d21b4fd9085f32e	"{""path"": ""/home/user/device_runs/nano_extended_20260907/engines/canon_bfi_s_s1_best_e1_384_trt82_fp16.plan"", ""md5"": ""22e716384b723786acc500398928f56d""}"		"# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
+"	FP16
+nano	rip	cascade	selected	primary	night_camera_20260910/nano/cases/rip_cascade/result.json	night_camera_20260910/nano/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T01:48:30+02:00	2026-09-11T01:58:30+02:00	NVIDIA Jetson Nano Developer Kit	"NAME=""Ubuntu""
+VERSION=""18.04.6 LTS (Bionic Beaver)""
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME=""Ubuntu 18.04.6 LTS""
+VERSION_ID=""18.04""
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+"	4.9.253-tegra	TensorRT CUDA10.2 ctypes transport	8.2.1.8	4	384	"""/home/user/device_runs/nano_extended_20260907/models/canon_bfi_s_s1_best_e1_384_trt82.onnx"""	0.07	0.5	"""/home/user/device_kit/models/yolo26n_cls_224_gate.onnx"""	"NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+NVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13
+NVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap
+"	0c91fbdb6829a94bab31aa25c801bd363b809bbc4289dd28067979d955b471a0	276860fbb3704d6775f2011aa9080e6a97ce48582c098b443c22de8908b3e012	7	5.8062086680582405	3481.9004627983422	599.6857264109985	601	0	1.0356943610004237	564	564	0.9404926199851869	6173.582380848125	550	0.975177304964539	598	1	599	598	564	"{""dequeued"": 16832, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 16832}"	1	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed webcam moved to classic Nano and rip playback"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-0892724594a0"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms webcam connected to classic Jetson Nano and rip video playing after request for continuous repeat"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-11T02:36:21+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	5856162eed8d03571d21b4fd9085f32e	"{""path"": ""/home/user/device_runs/nano_extended_20260907/engines/canon_bfi_s_s1_best_e1_384_trt82_fp16.plan"", ""md5"": ""22e716384b723786acc500398928f56d""}"		"# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
+"	FP16
+nano	rip	adaptive	selected	primary	night_camera_20260910/nano/cases/rip_adaptive/result.json	night_camera_20260910/nano/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T01:58:42+02:00	2026-09-11T02:08:42+02:00	NVIDIA Jetson Nano Developer Kit	"NAME=""Ubuntu""
+VERSION=""18.04.6 LTS (Bionic Beaver)""
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME=""Ubuntu 18.04.6 LTS""
+VERSION_ID=""18.04""
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+"	4.9.253-tegra	TensorRT CUDA10.2 ctypes transport	8.2.1.8	4	384	"""/home/user/device_runs/nano_extended_20260907/models/canon_bfi_s_s1_best_e1_384_trt82.onnx"""	0.07		null	"NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+NVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13
+NVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap
+"	ab30664b8a8c3df4048d0cc2ac8e2bfb93abde4f797122a534816311e628aa22	26742b26a1961ac5d71f5d51e57e7f730e5e50d1491a0bef01744c802a902e39	7	5.811523934366526	3485.1058769093456	599.6888107609993	601	0	1.018005900999924	598	598	0.9971838548082025	5827.936249012284	582	0.9732441471571907	598	1	599	0	0	"{""dequeued"": 16808, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 16808}"	1	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed webcam moved to classic Nano and rip playback"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-0892724594a0"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms webcam connected to classic Jetson Nano and rip video playing after request for continuous repeat"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-11T02:36:21+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	5856162eed8d03571d21b4fd9085f32e	"{""path"": ""/home/user/device_runs/nano_extended_20260907/engines/canon_bfi_s_s1_best_e1_384_trt82_fp16.plan"", ""md5"": ""22e716384b723786acc500398928f56d""}"		"# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
+"	FP16
+nano	rip	max_throughput	selected	primary	night_camera_20260910/nano/cases/rip_max_throughput/result.json	night_camera_20260910/nano/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T02:14:06+02:00	2026-09-11T02:24:07+02:00	NVIDIA Jetson Nano Developer Kit	"NAME=""Ubuntu""
+VERSION=""18.04.6 LTS (Bionic Beaver)""
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME=""Ubuntu 18.04.6 LTS""
+VERSION_ID=""18.04""
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+"	4.9.253-tegra	TensorRT CUDA10.2 ctypes transport	8.2.1.8	4	384	"""/home/user/device_runs/nano_extended_20260907/models/canon_bfi_s_s1_best_e1_384_trt82.onnx"""	0.07		null	"NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+NVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13
+NVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap
+"	e333b447091ba07b8daaf66739f1fa311b2a102599b47886a2838b5a7cf45fc6	e065ed9421d20c312211c774b18962ac7f7b6023e58fa25b9e274a41aa3e1133	7	8.669021037928706	5198.919789166405	599.7124434720008	601	0	1.0438672800009954	4613	4611	7.688684885884442	1127.5037495481251	4482	0.9716019943637546	4613	0	4613	0	0	"{""dequeued"": 13023, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 13023}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed webcam moved to classic Nano and rip playback"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-0892724594a0"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms webcam connected to classic Jetson Nano and rip video playing after request for continuous repeat"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-11T02:36:21+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	5856162eed8d03571d21b4fd9085f32e	"{""path"": ""/home/user/device_runs/nano_extended_20260907/engines/canon_bfi_s_s1_best_e1_384_trt82_fp16.plan"", ""md5"": ""22e716384b723786acc500398928f56d""}"		"# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
+"	FP16
+nano	norip	detector_only	selected	primary	night_camera_20260910/nano/cases/norip_detector_only/result.json	night_camera_20260910/nano/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T02:30:09+02:00	2026-09-11T02:40:09+02:00	NVIDIA Jetson Nano Developer Kit	"NAME=""Ubuntu""
+VERSION=""18.04.6 LTS (Bionic Beaver)""
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME=""Ubuntu 18.04.6 LTS""
+VERSION_ID=""18.04""
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+"	4.9.253-tegra	TensorRT CUDA10.2 ctypes transport	8.2.1.8	4	384	"""/home/user/device_runs/nano_extended_20260907/models/canon_bfi_s_s1_best_e1_384_trt82.onnx"""	0.07		null	"NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+NVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13
+NVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap
+"	227899c05140cf6aab97b925609ffd841e204cd981cf81bf0851cc458abb4123	224b0597705c19b10eef6af161758c8aa2dcae720191f6b0df482682ebb8e346	7	5.824780345749231	3492.391811125607	599.5748515520008	601	0	1.0130778420007118	598	598	0.9973733862453965	5840.120085494326	12	0.020066889632107024	598	1	599	0	0	"{""dequeued"": 17553, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 17553}"	1	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed no-rip switch"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-0892724594a0"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirmed switch to no-rip video after request for repeat; camera remains fixed on classic Nano"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T03:28:28+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	5856162eed8d03571d21b4fd9085f32e	"{""path"": ""/home/user/device_runs/nano_extended_20260907/engines/canon_bfi_s_s1_best_e1_384_trt82_fp16.plan"", ""md5"": ""22e716384b723786acc500398928f56d""}"		"# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
+"	FP16
+nano	norip	cascade	selected	primary	night_camera_20260910/nano/cases/norip_cascade/result.json	night_camera_20260910/nano/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T02:40:21+02:00	2026-09-11T02:50:22+02:00	NVIDIA Jetson Nano Developer Kit	"NAME=""Ubuntu""
+VERSION=""18.04.6 LTS (Bionic Beaver)""
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME=""Ubuntu 18.04.6 LTS""
+VERSION_ID=""18.04""
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+"	4.9.253-tegra	TensorRT CUDA10.2 ctypes transport	8.2.1.8	4	384	"""/home/user/device_runs/nano_extended_20260907/models/canon_bfi_s_s1_best_e1_384_trt82.onnx"""	0.07	0.5	"""/home/user/device_kit/models/yolo26n_cls_224_gate.onnx"""	"NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+NVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13
+NVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap
+"	e59dcbc90451d695e2a1786ec1d0baf65825735b757ad2ab48f4ff9c6dfb3e56	6dd71859c47a2db65b3eb42d5867a015746891fef60e4d85df6750a6e6aff2f7	7	5.607201422617809	3362.802703230399	599.729249901	601	0	1.0457372069977282	0	0	0.0		0		598	1	599	598	0	"{""dequeued"": 17610, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 17610}"	1	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed no-rip switch"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-0892724594a0"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirmed switch to no-rip video after request for repeat; camera remains fixed on classic Nano"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T03:28:28+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	5856162eed8d03571d21b4fd9085f32e	"{""path"": ""/home/user/device_runs/nano_extended_20260907/engines/canon_bfi_s_s1_best_e1_384_trt82_fp16.plan"", ""md5"": ""22e716384b723786acc500398928f56d""}"		"# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
+"	FP16
+nano	norip	adaptive	selected	primary	night_camera_20260910/nano/cases/norip_adaptive/result.json	night_camera_20260910/nano/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T02:50:34+02:00	2026-09-11T03:00:34+02:00	NVIDIA Jetson Nano Developer Kit	"NAME=""Ubuntu""
+VERSION=""18.04.6 LTS (Bionic Beaver)""
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME=""Ubuntu 18.04.6 LTS""
+VERSION_ID=""18.04""
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+"	4.9.253-tegra	TensorRT CUDA10.2 ctypes transport	8.2.1.8	4	384	"""/home/user/device_runs/nano_extended_20260907/models/canon_bfi_s_s1_best_e1_384_trt82.onnx"""	0.07		null	"NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+NVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13
+NVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap
+"	c77a8ee74607630b4af6301d42564dbed2e5de9f7a8b0ab6c891b307b7c81480	fcfa290fde5a9f3010829c231a5ce8e1f61cef96250dc98513d36c6fc9db0a5b	7	5.45728116138819	3272.6284227843503	599.6811096960009	601	0	1.0416594449998229	132	132	0.2201169886223619	24792.63956654811	3	0.022727272727272728	132	1	133	0	0	"{""dequeued"": 17872, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 17872}"	1	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed no-rip switch"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-0892724594a0"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirmed switch to no-rip video after request for repeat; camera remains fixed on classic Nano"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T03:28:28+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	5856162eed8d03571d21b4fd9085f32e	"{""path"": ""/home/user/device_runs/nano_extended_20260907/engines/canon_bfi_s_s1_best_e1_384_trt82_fp16.plan"", ""md5"": ""22e716384b723786acc500398928f56d""}"		"# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
+"	FP16
+nano	norip	max_throughput	selected	primary	night_camera_20260910/nano/cases/norip_max_throughput/result.json	night_camera_20260910/nano/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T03:05:58+02:00	2026-09-11T03:15:58+02:00	NVIDIA Jetson Nano Developer Kit	"NAME=""Ubuntu""
+VERSION=""18.04.6 LTS (Bionic Beaver)""
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME=""Ubuntu 18.04.6 LTS""
+VERSION_ID=""18.04""
+HOME_URL=""https://www.ubuntu.com/""
+SUPPORT_URL=""https://help.ubuntu.com/""
+BUG_REPORT_URL=""https://bugs.launchpad.net/ubuntu/""
+PRIVACY_POLICY_URL=""https://www.ubuntu.com/legal/terms-and-policies/privacy-policy""
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+"	4.9.253-tegra	TensorRT CUDA10.2 ctypes transport	8.2.1.8	4	384	"""/home/user/device_runs/nano_extended_20260907/models/canon_bfi_s_s1_best_e1_384_trt82.onnx"""	0.07		null	"NVPM WARN: fan mode is not set!
+NV Power Mode: MAXN
+0
+NVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13
+NVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap
+"	64985bdde425212f76f448799a37cc6faf324a475e8910e4b411ae259cb070b6	3223dd022fd8418a4abcce3ed0a705c11363b358f466709f711f20a12b6b7c91	7	8.550642061823407	5127.802680541294	599.6979692829991	601	0	1.0694887379977445	4491	4490	7.487102224755336	1142.0495947753438	65	0.01447339122689824	4491	0	4491	0	0	"{""dequeued"": 13127, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 13127}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed no-rip switch"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-0892724594a0"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirmed switch to no-rip video after request for repeat; camera remains fixed on classic Nano"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T03:28:28+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	5856162eed8d03571d21b4fd9085f32e	"{""path"": ""/home/user/device_runs/nano_extended_20260907/engines/canon_bfi_s_s1_best_e1_384_trt82_fp16.plan"", ""md5"": ""22e716384b723786acc500398928f56d""}"		"# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
+"	FP16
+nxp	rip	detector_only	selected	primary	night_camera_20260910/nxp/cases/rip_detector_only/result.json	night_camera_20260910/nxp/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T00:42:56+03:00	2026-09-11T00:52:56+03:00	NXP FRDM-IMX95-PRO	"ID=fsl-imx-xwayland
+NAME=""NXP i.MX Release Distro""
+VERSION=""6.18-whinlatter (whinlatter)""
+VERSION_ID=6.18-whinlatter
+VERSION_CODENAME=""whinlatter""
+PRETTY_NAME=""NXP i.MX Release Distro 6.18-whinlatter (whinlatter)""
+CPE_NAME=""cpe:/o:openembedded:fsl-imx-xwayland:6.18-whinlatter""
+"	6.18.2-1.0.0-gf49f45233f7b	TFLite Neutron SDK3.0.1 plus CPU fallback and FP32 CPU head		4	384	"""/root/device_runs/nxp_fullval_20260909/qat2.tflite"""	0.04		null		1eba73e883e71ece5a9ffe48479fb84624e00ef5f1f9ca58190b317f297e20bd	e4a70df13e3990b6f56d82a35b8436873f00694185d244c8051d139f3e4a7bba	9	9.629323248204075	5774.922448402174	599.7225661189877	601	0	1.017807111958973	599	599	0.998795166032081	9640.93897896857	556	0.9282136894824707	599	1	600	0	0	"{""dequeued"": 18004, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18004}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed webcam moved to NXP and rip video playing"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927245a69c"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms webcam moved to NXP and rip video playing, following request for continuous repeat"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-11T00:40:42+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	f3418470d431cd2279f24db061e8569643ac2c4071f28d5ffff0c8d1e6b5e830	"{""path"": null, ""md5"": null}"	99d9f299e3e068f263ea5b4e3ce9113fff8d25e8fda5589b35ad531a3ad62f4e		INT8 backbone; FP32 head
+nxp	rip	cascade	selected	primary	night_camera_20260910/nxp/cases/rip_cascade/result.json	night_camera_20260910/nxp/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T00:53:02+03:00	2026-09-11T01:03:02+03:00	NXP FRDM-IMX95-PRO	"ID=fsl-imx-xwayland
+NAME=""NXP i.MX Release Distro""
+VERSION=""6.18-whinlatter (whinlatter)""
+VERSION_ID=6.18-whinlatter
+VERSION_CODENAME=""whinlatter""
+PRETTY_NAME=""NXP i.MX Release Distro 6.18-whinlatter (whinlatter)""
+CPE_NAME=""cpe:/o:openembedded:fsl-imx-xwayland:6.18-whinlatter""
+"	6.18.2-1.0.0-gf49f45233f7b	TFLite Neutron SDK3.0.1 plus CPU fallback and FP32 CPU head		4	384	"""/root/device_runs/nxp_fullval_20260909/qat2.tflite"""	0.04	0.5	"""/root/device_runs/imx95_requant_20260908/compiled_gate_backbone_global_minmax/gate_neutron.tflite"""		6f83b3bb65bd7cf8a614f83e1786ef95e31e5eba449df598e5738227792793a7	13c69bd84d87d8ecda1e0f21b0aba0687ae29276bfe99d9629ca3fa4154151d7	9	9.696950995377604	5815.924290644697	599.768349186983	601	0	1.0482433620491065	568	568	0.9470323013375971	10239.303328599819	537	0.9454225352112676	599	1	600	599	568	"{""dequeued"": 18004, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18004}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed webcam moved to NXP and rip video playing"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927245a69c"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms webcam moved to NXP and rip video playing, following request for continuous repeat"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-11T00:40:42+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	f3418470d431cd2279f24db061e8569643ac2c4071f28d5ffff0c8d1e6b5e830	"{""path"": null, ""md5"": null}"	99d9f299e3e068f263ea5b4e3ce9113fff8d25e8fda5589b35ad531a3ad62f4e		INT8 backbone; FP32 head
+nxp	rip	adaptive	selected	primary	night_camera_20260910/nxp/cases/rip_adaptive/result.json	night_camera_20260910/nxp/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T01:03:09+03:00	2026-09-11T01:13:09+03:00	NXP FRDM-IMX95-PRO	"ID=fsl-imx-xwayland
+NAME=""NXP i.MX Release Distro""
+VERSION=""6.18-whinlatter (whinlatter)""
+VERSION_ID=6.18-whinlatter
+VERSION_CODENAME=""whinlatter""
+PRETTY_NAME=""NXP i.MX Release Distro 6.18-whinlatter (whinlatter)""
+CPE_NAME=""cpe:/o:openembedded:fsl-imx-xwayland:6.18-whinlatter""
+"	6.18.2-1.0.0-gf49f45233f7b	TFLite Neutron SDK3.0.1 plus CPU fallback and FP32 CPU head		4	384	"""/root/device_runs/nxp_fullval_20260909/qat2.tflite"""	0.04		null		84ac5623d84733b9475054b810c21f3e73c5f352f6ee94f35c051e257d997bc9	0c78a306a6d6cb93a2948faf0e4fd2493775e25b42edb08e5c7ee975069809ca	9	9.676900447459657	5803.8867516814	599.7671241110074	601	0	1.063503993966151	599	599	0.9987209633870071	9689.293408483138	558	0.9315525876460768	599	1	600	0	0	"{""dequeued"": 18004, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18004}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed webcam moved to NXP and rip video playing"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927245a69c"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms webcam moved to NXP and rip video playing, following request for continuous repeat"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-11T00:40:42+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	f3418470d431cd2279f24db061e8569643ac2c4071f28d5ffff0c8d1e6b5e830	"{""path"": null, ""md5"": null}"	99d9f299e3e068f263ea5b4e3ce9113fff8d25e8fda5589b35ad531a3ad62f4e		INT8 backbone; FP32 head
+nxp	rip	max_throughput	selected	primary	night_camera_20260910/nxp/cases/rip_max_throughput/result.json	night_camera_20260910/nxp/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T01:18:22+03:00	2026-09-11T01:28:22+03:00	NXP FRDM-IMX95-PRO	"ID=fsl-imx-xwayland
+NAME=""NXP i.MX Release Distro""
+VERSION=""6.18-whinlatter (whinlatter)""
+VERSION_ID=6.18-whinlatter
+VERSION_CODENAME=""whinlatter""
+PRETTY_NAME=""NXP i.MX Release Distro 6.18-whinlatter (whinlatter)""
+CPE_NAME=""cpe:/o:openembedded:fsl-imx-xwayland:6.18-whinlatter""
+"	6.18.2-1.0.0-gf49f45233f7b	TFLite Neutron SDK3.0.1 plus CPU fallback and FP32 CPU head		4	384	"""/root/device_runs/nxp_fullval_20260909/qat2.tflite"""	0.04		null		78a7478a3aec694fc4f1083f6c71823f54edea238fd1cb1947599d4afc1aeb3c	79310baa2b046fe7b38ee4a79a2cf56186fad67575772ede7254839325101986	9	10.905216717563965	6540.625031123532	599.7702934769914	601	0	1.0853622700087726	12189	12185	20.31611123878953	536.7767772772697	11326	0.9291984576257282	12189	0	12189	0	0	"{""dequeued"": 18006, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18006}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed webcam moved to NXP and rip video playing"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927245a69c"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirms webcam moved to NXP and rip video playing, following request for continuous repeat"", ""scenario"": ""monitor_rip_038"", ""user_confirmed_at"": ""2026-09-11T00:40:42+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	f3418470d431cd2279f24db061e8569643ac2c4071f28d5ffff0c8d1e6b5e830	"{""path"": null, ""md5"": null}"	99d9f299e3e068f263ea5b4e3ce9113fff8d25e8fda5589b35ad531a3ad62f4e		INT8 backbone; FP32 head
+nxp	norip	detector_only	selected	primary	night_camera_20260910/nxp/cases/norip_detector_only/result.json	night_camera_20260910/nxp/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T01:38:30+03:00	2026-09-11T01:48:30+03:00	NXP FRDM-IMX95-PRO	"ID=fsl-imx-xwayland
+NAME=""NXP i.MX Release Distro""
+VERSION=""6.18-whinlatter (whinlatter)""
+VERSION_ID=6.18-whinlatter
+VERSION_CODENAME=""whinlatter""
+PRETTY_NAME=""NXP i.MX Release Distro 6.18-whinlatter (whinlatter)""
+CPE_NAME=""cpe:/o:openembedded:fsl-imx-xwayland:6.18-whinlatter""
+"	6.18.2-1.0.0-gf49f45233f7b	TFLite Neutron SDK3.0.1 plus CPU fallback and FP32 CPU head		4	384	"""/root/device_runs/nxp_fullval_20260909/qat2.tflite"""	0.04		null		254b4763d869a25bd3d5d16ed63cea18a988f5807046dfd17595f8e25e191a90	4aaed6e38f239a2c7a5683480ca170c874a41355ddbe46816163c3538a524fdf	9	9.593980768572028	5753.810644146701	599.7313089260133	601	0	1.0564369960338809	599	599	0.9987806057227145	9605.693896739065	88	0.14691151919866444	599	1	600	0	0	"{""dequeued"": 18005, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18005}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed no-rip switch"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927245a69c"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirmed no-rip video playing on repeat; camera remains fixed on NXP"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T01:36:34+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	f3418470d431cd2279f24db061e8569643ac2c4071f28d5ffff0c8d1e6b5e830	"{""path"": null, ""md5"": null}"	99d9f299e3e068f263ea5b4e3ce9113fff8d25e8fda5589b35ad531a3ad62f4e		INT8 backbone; FP32 head
+nxp	norip	cascade	selected	primary	night_camera_20260910/nxp/cases/norip_cascade/result.json	night_camera_20260910/nxp/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T01:48:36+03:00	2026-09-11T01:58:36+03:00	NXP FRDM-IMX95-PRO	"ID=fsl-imx-xwayland
+NAME=""NXP i.MX Release Distro""
+VERSION=""6.18-whinlatter (whinlatter)""
+VERSION_ID=6.18-whinlatter
+VERSION_CODENAME=""whinlatter""
+PRETTY_NAME=""NXP i.MX Release Distro 6.18-whinlatter (whinlatter)""
+CPE_NAME=""cpe:/o:openembedded:fsl-imx-xwayland:6.18-whinlatter""
+"	6.18.2-1.0.0-gf49f45233f7b	TFLite Neutron SDK3.0.1 plus CPU fallback and FP32 CPU head		4	384	"""/root/device_runs/nxp_fullval_20260909/qat2.tflite"""	0.04	0.5	"""/root/device_runs/imx95_requant_20260908/compiled_gate_backbone_global_minmax/gate_neutron.tflite"""		c88f4858a9f810e4365cbdc5192fc83d63541e9fbdea3cb6572693694805abba	a045c212d6f1369c602c649c02828d8ad21c6840f567f061967b761c3e5d9703	9	9.578951214208756	5744.953902733151	599.7476941120112	601	0	1.0417479000170715	0	0	0.0		0		599	1	600	599	0	"{""dequeued"": 18004, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18004}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed no-rip switch"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927245a69c"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirmed no-rip video playing on repeat; camera remains fixed on NXP"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T01:36:34+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	f3418470d431cd2279f24db061e8569643ac2c4071f28d5ffff0c8d1e6b5e830	"{""path"": null, ""md5"": null}"	99d9f299e3e068f263ea5b4e3ce9113fff8d25e8fda5589b35ad531a3ad62f4e		INT8 backbone; FP32 head
+nxp	norip	adaptive	selected	primary	night_camera_20260910/nxp/cases/norip_adaptive/result.json	night_camera_20260910/nxp/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T01:58:42+03:00	2026-09-11T02:08:42+03:00	NXP FRDM-IMX95-PRO	"ID=fsl-imx-xwayland
+NAME=""NXP i.MX Release Distro""
+VERSION=""6.18-whinlatter (whinlatter)""
+VERSION_ID=6.18-whinlatter
+VERSION_CODENAME=""whinlatter""
+PRETTY_NAME=""NXP i.MX Release Distro 6.18-whinlatter (whinlatter)""
+CPE_NAME=""cpe:/o:openembedded:fsl-imx-xwayland:6.18-whinlatter""
+"	6.18.2-1.0.0-gf49f45233f7b	TFLite Neutron SDK3.0.1 plus CPU fallback and FP32 CPU head		4	384	"""/root/device_runs/nxp_fullval_20260909/qat2.tflite"""	0.04		null		75d3fe8ad378bbafbe125f90b973479b087be6afb652200eeb2408e8ea43adc6	1f8e756f132d6934537b44c099dfb0041a8b3dad52163ddc951c7dcd9ca984fe	9	9.467367553707467	5678.190648067585	599.7644662949606	601	0	1.6554071980062872	167	167	0.27844263771016803	34001.141605195124	22	0.1317365269461078	167	1	168	0	0	"{""dequeued"": 18004, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18004}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed no-rip switch"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927245a69c"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirmed no-rip video playing on repeat; camera remains fixed on NXP"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T01:36:34+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	f3418470d431cd2279f24db061e8569643ac2c4071f28d5ffff0c8d1e6b5e830	"{""path"": null, ""md5"": null}"	99d9f299e3e068f263ea5b4e3ce9113fff8d25e8fda5589b35ad531a3ad62f4e		INT8 backbone; FP32 head
+nxp	norip	max_throughput	selected	primary	night_camera_20260910/nxp/cases/norip_max_throughput/result.json	night_camera_20260910/nxp/HANDOFF_READY.json	Previously sealed handoff selection; unchanged.	2026-09-12T00:47:04+03:00	2026-09-11T02:13:56+03:00	2026-09-11T02:23:56+03:00	NXP FRDM-IMX95-PRO	"ID=fsl-imx-xwayland
+NAME=""NXP i.MX Release Distro""
+VERSION=""6.18-whinlatter (whinlatter)""
+VERSION_ID=6.18-whinlatter
+VERSION_CODENAME=""whinlatter""
+PRETTY_NAME=""NXP i.MX Release Distro 6.18-whinlatter (whinlatter)""
+CPE_NAME=""cpe:/o:openembedded:fsl-imx-xwayland:6.18-whinlatter""
+"	6.18.2-1.0.0-gf49f45233f7b	TFLite Neutron SDK3.0.1 plus CPU fallback and FP32 CPU head		4	384	"""/root/device_runs/nxp_fullval_20260909/qat2.tflite"""	0.04		null		37371f830fb51cc44a4f81bcd6669545b17aff3b1801a3f34e4317c12680361f	02e7877541e5e4e14f3e553494ae51cce671f6dbd52873a88560337bb23f7524	9	10.867655057388024	6518.159594615596	599.7760841870331	601	0	1.0516636819811538	12172	12167	20.285903891102574	535.7244673802577	1380	0.11337495892211633	12172	0	12172	0	0	"{""dequeued"": 18007, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18007}"	0	0	"{""ambient_C"": 23, ""camera_name"": ""Microsoft LifeCam HD-3000 USB045e:0810"", ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""Timestamp from date at write time after user confirmed no-rip switch"", ""confirmed_dark"": true, ""lighting"": ""Room lights off; minor street-light spill described as negligible compared with monitor"", ""meter_id"": ""shellyplugmg3-08927245a69c"", ""monitor_brightness_percent"": 100, ""playback"": ""User confirmed no-rip video playing on repeat; camera remains fixed on NXP"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T01:36:34+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	f3418470d431cd2279f24db061e8569643ac2c4071f28d5ffff0c8d1e6b5e830	"{""path"": null, ""md5"": null}"	99d9f299e3e068f263ea5b4e3ce9113fff8d25e8fda5589b35ad531a3ad62f4e		INT8 backbone; FP32 head
+pi5	rip	detector_only	repeat01	primary	pi5_unattended_20260911/cases/repeat01/rip_detector_only/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T05:40:36+03:00	2026-09-11T05:50:36+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		a93a8e4b565723f4399ca202e73b6c920c60bf9c66698ee1dc76373fb8cf1699	b0e9a6e196ccd86c6808354f2322f9ebea527528e66f01ac7836ae5cbe0f55bd	7	10.212522020060687	6126.800401028651	599.9302022550002	601	0	1.0172435959998438	599	599	0.9984494825372956	10228.381303887565	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 2, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18000}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat01"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	cascade	repeat01	primary	pi5_unattended_20260911/cases/repeat01/rip_cascade/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T05:50:42+03:00	2026-09-11T06:00:42+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"		d9a631a26d479e8c430af8311c18ba89b86c2405fd26969d508063293ea52bd6	f859dd93f9f49b26329643e1bf5d8893aebdc87116a92500046dc7027f3f876a	7	10.069028332496675	6040.732297214101	599.9319991699999	601	0	1.0200296779999007	568	568	0.9467739690261937	10635.092072560037	568	1.0	599	1	600	599	568	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 9, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 17993}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat01"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	adaptive	repeat01	primary	pi5_unattended_20260911/cases/repeat01/rip_adaptive/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T06:00:49+03:00	2026-09-11T06:10:49+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		15c2fbe202aea921ae1c8e818d1bda045ae23a9e688be4a55094eea4612475a9	8131c51a7ca643eb81f79cfc1445c6883c8418d0a3f5b419c05d192ff5bd17a6	7	10.237473738187095	6141.745461701001	599.927835594	601	0	1.01869461699971	599	599	0.9984534213301148	10253.331321704509	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 2, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18000}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat01"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	max_throughput	repeat01	primary	pi5_unattended_20260911/cases/repeat01/rip_max_throughput/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T06:16:02+03:00	2026-09-11T06:26:02+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		df2d3e7709e0b035c98f762576677f21786321ea745e4a581c344133ea600383	f180ba6ded1c6724aca28e28122fdd2557c98349e78b0e99e7eea8c19f5211a3	7	14.011447872769457	8405.6992736196	599.916536103	601	0	1.023957793000136	1072	1071	1.7852483396392318	7848.458705527172	1072	1.0	1072	0	1072	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat01"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	detector_only	repeat02	sensitivity	pi5_unattended_20260911/cases/repeat02/rip_detector_only/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T06:26:09+03:00	2026-09-11T06:36:09+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		2b63250261682062828a251181390efc8238497e28077d808ee6cf52da84b2e6	f021a822f4641228df796f425757a9d6248aa8438e106f3003fcbbecf94e6474	7	10.286549746550405	6171.170382786849	599.9261691079996	601	0	1.0403627280002183	599	599	0.9984561948524822	10302.454729193403	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 2, ""kernel_bad"": 2, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 17998}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat02"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	cascade	repeat02	sensitivity	pi5_unattended_20260911/cases/repeat02/rip_cascade/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T06:36:16+03:00	2026-09-11T06:46:16+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"		e3cffea94ffaacdb920b132276b1a01d310c58d31bcc59e31acba6c79946582a	e4e900edd827d48917b4387a9b461b4f87ef7d4ddd227066bf7f0055fc60a339	7	10.096231175576618	6057.146201527556	599.941314357	601	0	1.019007311999303	566	566	0.943425609230834	10701.671734147625	566	1.0	599	1	600	599	566	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 2, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18000}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat02"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	adaptive	repeat02	sensitivity	pi5_unattended_20260911/cases/repeat02/rip_adaptive/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T06:46:23+03:00	2026-09-11T06:56:23+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		26b182992448d3d898d6ec26325a60891890634f8eee8a30f216105d0a74a535	1afe7038a935fe37e68dea003ad79c635e2efbb11d854f5696617ea16bad6dce	7	10.239814524866137	6143.111706519499	599.924118899	601	0	1.018692067000302	599	599	0.9984596070238084	10255.612197862269	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat02"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	max_throughput	repeat02	sensitivity	pi5_unattended_20260911/cases/repeat02/rip_max_throughput/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T07:01:37+03:00	2026-09-11T07:11:37+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		2ea862b5b9cacec44bbc11f158a57d1d64e649a0b7af193419f0ff6a79ca515e	c1cacf4b14c7578c98378b86974c5818b05663d7b8eaae57cfde2ea1583fea45	7	13.978733913270943	8386.248295319197	599.9290312949997	601	0	1.0186660489998758	1069	1067	1.778543701572145	7859.651635725583	1069	1.0	1069	0	1069	0	0	"{""dequeued"": 18019, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18019}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat02"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	detector_only	repeat03	sensitivity	pi5_unattended_20260911/cases/repeat03/rip_detector_only/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T07:11:44+03:00	2026-09-11T07:21:44+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		ba12782545fefd97e42140c0808c8a4b5fdccdc60f4eef96606472e2e93def0c	d977aad4de1841716fed6ad420d195f2146c04c0cca915b7acf5788687117871	7	10.281587380459593	6168.297693172248	599.9363196479999	601	0	1.0468696280004224	599	599	0.9984393016102955	10297.658920154003	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat03"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	cascade	repeat03	sensitivity	pi5_unattended_20260911/cases/repeat03/rip_cascade/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T07:21:51+03:00	2026-09-11T07:31:51+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"		a7e3908c3607a743338c3dd9aa1bf781694edbc5562a77e31e443cf0cd153ce7	b2785c068e5f8e74a65c2616e46b39bb1b8075c440352fea6d561742e500e97c	7	10.067139511802086	6039.41543811385	599.913752167	601	0	1.0319600330003595	567	567	0.9451358598663401	10651.526345879805	567	1.0	599	1	600	599	567	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat03"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	adaptive	repeat03	sensitivity	pi5_unattended_20260911/cases/repeat03/rip_adaptive/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T07:31:58+03:00	2026-09-11T07:41:58+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		b690c63fdc2f8a52cf851171dd165cfa535dd4f259ae89a56a04250b320ae562	0b46b71f8cddd8807f0fe23efc6a1f07a51eb63c971997ea8e6fb886c88d916c	7	10.250525894181933	6149.555865289152	599.9258895370003	601	0	1.0196817789992565	599	599	0.9984566601422804	10266.37039280326	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 3, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 17999}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat03"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	max_throughput	repeat03	sensitivity	pi5_unattended_20260911/cases/repeat03/rip_max_throughput/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T07:47:12+03:00	2026-09-11T07:57:12+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		ec51a2acee082ed34bf8600d3985aefff9989ce26a2d0f585d8fc7d0343674df	b68be9aefe3041f20358c0de95402cf309d5ae554cf366d6a2a24e7fe4c64e91	7	13.986596130178533	8390.843928828062	599.9203702410014	601	0	1.0234915959990758	1070	1069	1.7819031541978794	7849.245957743744	1070	1.0	1070	0	1070	0	0	"{""dequeued"": 18014, ""jpeg_bad"": 0, ""kernel_bad"": 2, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18012}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat03"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	detector_only	repeat04	sensitivity	pi5_unattended_20260911/cases/repeat04/rip_detector_only/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T07:57:19+03:00	2026-09-11T08:07:19+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		b107be25b6d16e9d5fdd1e03331a8228bbc9df5ef9f6acf7b98f3e77b63de0c1	97b0615033a9b1086a3a66be701f718474ab0e1bfbbcdd12d642bbda3a2186b3	7	10.301312248450769	6180.103478429544	599.9336132499993	601	0	1.0233168120012124	599	599	0.9984438057322015	10317.368077511761	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 4, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 17998}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat04"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	cascade	repeat04	sensitivity	pi5_unattended_20260911/cases/repeat04/rip_cascade/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T08:07:27+03:00	2026-09-11T08:17:27+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"		9f3c96a5b35e348b007e1d0e011ca8a2e3f4df43e07bc37fb8981201ecd99c78	fd64cd857cc298d0f69e28dfd0e521a149b5e199414d8b93848c1735b6454e0e	7	10.06716833630825	6039.5768244099	599.9280654350005	601	0	1.0354142199994385	563	563	0.9384458444893317	10727.489919022913	563	1.0	599	1	600	599	563	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat04"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	adaptive	repeat04	sensitivity	pi5_unattended_20260911/cases/repeat04/rip_adaptive/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T08:17:34+03:00	2026-09-11T08:27:34+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		4135ea8b064eccd33003983464cd5860e29207b7125e4dfd54847714610263ca	4df5adf3d9e02f616918deaf73c682e7bb3f28929f91e47cdfc95eb313bc2ce4	7	10.276238506629847	6164.931782112797	599.9210487510009	601	0	1.1154600919999211	599	599	0.9984647167274453	10292.039703026372	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat04"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	max_throughput	repeat04	sensitivity	pi5_unattended_20260911/cases/repeat04/rip_max_throughput/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T08:32:47+03:00	2026-09-11T08:42:47+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		27c35b50fbfd2a2a29c6da0e8f6eab7803e05530c71978480cd6a3e044c756c5	1720e923d7472427b03b023f82d80b2bb727e8dbd953875b82df75dacf6ff21d	7	13.972099271097134	8382.150114403095	599.9205954499994	601	0	1.0383524909993866	1067	1066	1.776901823482815	7863.180219890333	1067	1.0	1067	0	1067	0	0	"{""dequeued"": 18010, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18010}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat04"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	detector_only	repeat05	sensitivity	pi5_unattended_20260911/cases/repeat05/rip_detector_only/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T08:42:54+03:00	2026-09-11T08:52:54+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		838f88cdd458ff53c48cdb109063ea6385c93c991b73819b63110cbd53b898b0	703869f712acf28788fc071c48381526ec838c4296d3313f9abf991aad2fb5cb	7	10.294529907382872	6175.992686037096	599.9295491489993	601	0	1.043454999999085	599	599	0.9984505694871708	10310.505318926706	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat05"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	cascade	repeat05	sensitivity	pi5_unattended_20260911/cases/repeat05/rip_cascade/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T08:53:01+03:00	2026-09-11T09:03:01+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"		20d2c22b47ba35e1ac6cc9ded006c7876196af3750bbffd6bd60684c1a3db0f6	07d0ae8162cc463e5026085bff80fa212bdee89637b74c12e43055d2a6a7c8db	7	10.030260813165507	6017.559322991581	599.9404636710005	601	0	1.030354428999999	561	561	0.9350927866529853	10726.487206758613	561	1.0	599	1	600	599	561	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat05"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	adaptive	repeat05	sensitivity	pi5_unattended_20260911/cases/repeat05/rip_adaptive/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T09:03:08+03:00	2026-09-11T09:13:08+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		0a7e0a96a9eade968239af5c4644f26c289c56922bc391d5e2dfb7d5ea00fe22	aa9471538ee0b44fcf7d73f51c4037f61a672ce36d0ce35e76833926fa28c980	7	10.249544604472684	6148.929915917653	599.9222553979998	601	0	1.0812019940003665	599	599	0.9984627084764709	10265.325402199755	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat05"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	max_throughput	repeat05	sensitivity	pi5_unattended_20260911/cases/repeat05/rip_max_throughput/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T09:18:22+03:00	2026-09-11T09:28:23+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		d311a0e03a7e4c2205bf63e1256a21cf84cf35f2ce658ae9650e541a5a8e07ce	0d052db542540d80a20b9d17cd0bbfb93e2b78873dce2e74f3e8b23ea4e29daf	7	13.624821275945255	8173.927836649657	599.9291786000013	601	0	1.077222267000252	1031	1030	1.7168693184812496	7935.852268591901	1031	1.0	1031	0	1031	0	0	"{""dequeued"": 18009, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18009}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat05"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	detector_only	repeat06	sensitivity	pi5_unattended_20260911/cases/repeat06/rip_detector_only/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T09:28:30+03:00	2026-09-11T09:38:30+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		f37ec130b45e59c2590205e0115d92d15185810a81469b802b203697211a1d2e	27e8b4ea06f86a28bf7d25374a8a66cb5bed115f169654d4800b8c1281e3b11b	7	10.287189797996183	6171.508905280456	599.921749911	601	0	1.2969311590004509	599	599	0.9984635497693879	10303.019875259526	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 3, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 17999}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat06"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	cascade	repeat06	sensitivity	pi5_unattended_20260911/cases/repeat06/rip_cascade/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T09:38:37+03:00	2026-09-11T09:48:37+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"		54e90d3ead4a62ac26ebb58c5f174664632515a04f3dbbea258bb549ab6b1300	f07e9b552739b26861398e21b67b08d2e41b6c0302bd3c57523433f05970fe3d	7	10.065368403817757	6038.392171130063	599.9176511850001	601	0	1.0786715269987326	561	561	0.9351283445184065	10763.622408431485	561	1.0	599	1	600	599	561	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 1, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18001}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat06"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	adaptive	repeat06	sensitivity	pi5_unattended_20260911/cases/repeat06/rip_adaptive/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T09:48:44+03:00	2026-09-11T09:58:44+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		a4dda1fa360ecb11830939c4cbee7eb189cf008198807af6481b6aab22987b32	3eae379e6d68b41d1e0564acf50a46d0cdcb1f1a1d0f548f1a01903fcd1a5ecc	7	10.247129516435585	6147.475485680409	599.9217123020007	601	0	1.092816213000333	599	599	0.9984636123629131	10262.897304975642	599	1.0	599	1	600	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat06"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	rip	max_throughput	repeat06	sensitivity	pi5_unattended_20260911/cases/repeat06/rip_max_throughput/result.json	pi5_unattended_20260911/RETURN_SUMMARY.md	All six repeats retained. Earliest complete matrix is chronological analysis exemplar; retrospective choice, not best-result selection or final reporting promotion.	2026-09-12T00:47:04+03:00	2026-09-11T10:03:58+03:00	2026-09-11T10:13:59+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		e7f6e0124b5543c092aabc0889b709942b47c68b8c9dfe57e74121b68460c7d0	172cf8e0edeaebe655c4f4fd639abda49d91b38e1d6cb4eebe1d514a32258c9b	7	13.878430304425121	8325.892983551683	599.9160424429974	601	0	1.0734393550010282	1068	1066	1.7769153091139227	7810.406175939665	1068	1.0	1068	0	1068	0	0	"{""dequeued"": 18018, ""jpeg_bad"": 2, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18016}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed Pi5 powered, webcam connected, rip loop and Shelly2"", ""confirmed_dark"": null, ""geometry_scope"": ""Prior fixed geometry carried forward; user reports webcam connected and rip loop; verify intake image"", ""lighting"": ""Lights last reported OFF; no new illuminance measurement; dawn/daylight may change during unattended session. Do not assume matched darkness."", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""repeat06"", ""playback"": ""Rip current video on continuous loop per user; exact phase unsynchronized"", ""recorded_at"": ""2026-09-11T05:31:58+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_rip_038"", ""unattended_rip_authorized"": true, ""user_confirmed_at"": ""2026-09-11T05:31:58+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	norip	detector_only	evening	primary	pi5_norip_20260911/cases/evening/norip_detector_only/result.json	pi5_norip_20260911/FINAL_COLLECTION_AUDIT.json	Completed evening no-rip matrix.	2026-09-12T00:47:04+03:00	2026-09-11T21:55:13+03:00	2026-09-11T22:05:14+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		98c9b5a9d7383ed59a4bcb3fb7351b62e1a903c006fdc718594d5f353c09ee5d	7a872f977cf7567bb79317a6b8d7d70bc0a0962935ebb52c1c6e7ceaea1b6c75	7	10.099292633618042	6057.947675989018	599.8388100789962	601	0	1.01970844999596	599	599	0.9986016075237184	10113.435185290515	32	0.05342237061769616	599	1	600	0	0	"{""dequeued"": 18005, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18005}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed no-rip running and same dark-room setup"", ""confirmed_dark"": true, ""geometry_scope"": ""Same fixed webcam/monitor setup confirmed; no replug reported"", ""lighting"": ""User confirms same dark room, room lights off, monitor brightness100%; no illuminance measurement"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""evening"", ""playback"": ""NR001 no-rip video running on repeat per established protocol and current user confirmation"", ""playback_confirmed"": true, ""recorded_at"": ""2026-09-11T21:52:02+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T21:52:02+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	norip	cascade	evening	primary	pi5_norip_20260911/cases/evening/norip_cascade/result.json	pi5_norip_20260911/FINAL_COLLECTION_AUDIT.json	Completed evening no-rip matrix.	2026-09-12T00:47:04+03:00	2026-09-11T22:05:20+03:00	2026-09-11T22:15:20+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23	0.5	"{""file"": ""yolo26n_cls_224_gate.onnx"", ""md5"": ""013ae4f0129812f944fb4d6518ca0778""}"		03dc702a073739fc8ed63adfb63bf0fe9f1eb14b25b62b282557d065482f770b	cd7f5f67f281eaddb58211382cec7f3d5547d2860c8d66a1d2ff1644db1f7966	7	5.6236772736257485	3373.8305096808044	599.9331657069997	601	0	1.0209126430054312	0	0	0.0		0		599	1	600	599	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed no-rip running and same dark-room setup"", ""confirmed_dark"": true, ""geometry_scope"": ""Same fixed webcam/monitor setup confirmed; no replug reported"", ""lighting"": ""User confirms same dark room, room lights off, monitor brightness100%; no illuminance measurement"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""evening"", ""playback"": ""NR001 no-rip video running on repeat per established protocol and current user confirmation"", ""playback_confirmed"": true, ""recorded_at"": ""2026-09-11T21:52:02+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T21:52:02+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	norip	adaptive	evening	primary	pi5_norip_20260911/cases/evening/norip_adaptive/result.json	pi5_norip_20260911/FINAL_COLLECTION_AUDIT.json	Completed evening no-rip matrix.	2026-09-12T00:47:04+03:00	2026-09-11T22:15:27+03:00	2026-09-11T22:25:27+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		86e6e6a744cf07b283dca2f2edc1094342b1198ee1418e97963d5380c2fa7e0b	4961d5b5f02319c954f60dfa1ad202b97270f8194ad779d973deb6da7019c99f	7	6.807915619416959	4084.27989615515	599.9310397599984	601	0	1.0181503459971282	143	143	0.2383607290218005	28561.397875210838	6	0.04195804195804196	143	1	144	0	0	"{""dequeued"": 18002, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18002}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed no-rip running and same dark-room setup"", ""confirmed_dark"": true, ""geometry_scope"": ""Same fixed webcam/monitor setup confirmed; no replug reported"", ""lighting"": ""User confirms same dark room, room lights off, monitor brightness100%; no illuminance measurement"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""evening"", ""playback"": ""NR001 no-rip video running on repeat per established protocol and current user confirmation"", ""playback_confirmed"": true, ""recorded_at"": ""2026-09-11T21:52:02+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T21:52:02+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32
+pi5	norip	max_throughput	evening	primary	pi5_norip_20260911/cases/evening/norip_max_throughput/result.json	pi5_norip_20260911/FINAL_COLLECTION_AUDIT.json	Completed evening no-rip matrix.	2026-09-12T00:47:04+03:00	2026-09-11T22:30:41+03:00	2026-09-11T22:40:42+03:00	Raspberry Pi 5 Model B Rev 1.0	"PRETTY_NAME=""Debian GNU/Linux 13 (trixie)""
+NAME=""Debian GNU/Linux""
+VERSION_ID=""13""
+VERSION=""13 (trixie)""
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.5
+ID=debian
+HOME_URL=""https://www.debian.org/""
+SUPPORT_URL=""https://www.debian.org/support""
+BUG_REPORT_URL=""https://bugs.debian.org/""
+"	6.18.34+rpt-rpi-2712	ORT CPUExecutionProvider	1.29.0	4	384	"{""file"": ""rfdetr_n_det_640.onnx"", ""md5"": ""651962750eded9eb60c0958d0a7b30af""}"	0.23		null		4d501d66bc2729b1319abd5b316523ae457bd6b744a5515c99e071dd73dfe0f0	0e1ea527d7929bf0c1e3ac16bf625f72b59eb89fe1e4698e0aed94e0af00a035	7	13.510641322907038	8105.5114554589245	599.9353592280022	601	0	1.0247807059931802	1037	1036	1.7268527084870051	7823.8527562344825	66	0.06364513018322084	1037	0	1037	0	0	"{""dequeued"": 18011, ""jpeg_bad"": 0, ""kernel_bad"": 0, ""timeouts"": 0, ""transport_errors"": 0, ""valid"": 18011}"	0	0	"{""ambient_C"": 23, ""camera_position_unchanged"": true, ""confirmation_timestamp_scope"": ""date at write time after user confirmed no-rip running and same dark-room setup"", ""confirmed_dark"": true, ""geometry_scope"": ""Same fixed webcam/monitor setup confirmed; no replug reported"", ""lighting"": ""User confirms same dark room, room lights off, monitor brightness100%; no illuminance measurement"", ""meter_id"": ""shellyplugmg3-08927241b9d8"", ""monitor_brightness_percent"": 100, ""phase"": ""evening"", ""playback"": ""NR001 no-rip video running on repeat per established protocol and current user confirmation"", ""playback_confirmed"": true, ""recorded_at"": ""2026-09-11T21:52:02+03:00"", ""reporting_status"": ""pending_review"", ""scenario"": ""monitor_norip_NR001"", ""user_confirmed_at"": ""2026-09-11T21:52:02+03:00""}"	Whole board + PSU + webcam AC, monitor excluded. Unsynchronized fixed replay; activation and runtime/power, not frame-labelled or field accuracy.	Recorded summary	651962750eded9eb60c0958d0a7b30af	"{""path"": null, ""md5"": null}"			FP32

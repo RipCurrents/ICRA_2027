@@ -1,0 +1,6 @@
+gate	measured	verdict
+G1 rip-video recall within 0.05 of the sparse-label baseline at equal duty	0.613 vs 0.613	PASS
+G2 false-alarm no-rip clips <= 0.15 with the gate	0.100 [0.025,0.200]	PASS
+G3 median time-to-alarm <= 5 s and p90 <= 15 s at 1 Hz	0.0 / 1.4 s	PASS
+G4 <= 1 s per decision on the board, accuracy within 0.005 F2 of the workstation	6.1 ms cached pipeline (pre 3.16 + infer 2.84 + post 0.13, MAXN in-process; engine alone 2.44 ms); F2 +0.006/+0.021 vs PyTorch ref (favourable), <=0.0002 vs deployed-graph ref	PASS latency; accuracy FAIL upward vs declared reference
+G5 a 20 Wh battery-day at 0.2 decisions/s	Orin 4.98 W gross -> ~4 h	FAIL (platform idle)

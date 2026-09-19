@@ -1,0 +1,76 @@
+timestamp	name	view	init	seed	epochs_max	patience	best_epoch	stopped_epoch	n_train_images	samples_seen	extra	best_model	job
+2026-08-26 00:38	canon_bfi_n_s2	canonical_bfi	yolo26n.pt	2	300	50	8	58	31083	1802814	{}	<cluster-home>	3172372
+2026-08-26 01:10	t1_nano_k025_t024_s2_n_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s2	yolo26n.pt	1	60	15	3	18	108387	1950966	{}	<cluster-home>	3172402
+2026-08-26 01:50	t1_nano_k025_t024_s1_n_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26n.pt	1	60	15	2	17	191258	3251386	{}	train/edge_distill/best_models/t1_nano_k025_t024_s1_n_s1_best_e2.pt
+2026-08-26 01:43	canon_bfi_n_s3	canonical_bfi	yolo26n.pt	3	300	50	22	72	31083	2237976	{}	<cluster-home>	3172376
+2026-08-26 02:19	t1_nano_k025_t024_s1_n_s3	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26n.pt	3	60	15	2	17	191258	3251386	{}	<cluster-home>	3172378
+2026-08-26 02:44	interp_gt_s1_n_s2	interp_gt_s1	yolo26n.pt	2	60	15	2	17	191613	3257421	{}	<cluster-home>	3172380
+2026-08-26 02:49	interp_gt_s1_n_s3	interp_gt_s1	yolo26n.pt	3	60	15	3	18	191613	3449034	{}	<cluster-home>	3172381
+2026-08-26 03:30	t1_nano_k025_t024_s1_n_s2	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26n.pt	2	60	15	2	17	191258	3251386	{}	<cluster-home>	3172377
+2026-08-26 03:52	t1_nano_k025_t024_s4_n_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s4	yolo26n.pt	1	60	15	4	19	69609	1322571	{}	<cluster-home>	3173090
+2026-08-26 04:05	t1_nano_k0_t024_s1_n_s1	t1_rfdetr_seg_nano_k0_t0.24_s1	yolo26n.pt	1	60	15	2	17	191616	3257472	{}	<cluster-home>	3172401
+2026-08-26 04:13	kd_bfi_x_n_s2	canonical_bfi	yolo26n.pt	2	300	50	21	71	31083	2206893	{"distill_model": "9_bfi_yolo26_xlarge_best_e21_j2853807.pt", "dis": 6.0}	<cluster-home>	3172397
+2026-08-26 04:23	kd_bfi_x_n_s3	canonical_bfi	yolo26n.pt	3	300	50	22	72	31083	2237976	{"distill_model": "9_bfi_yolo26_xlarge_best_e21_j2853807.pt", "dis": 6.0}	<cluster-home>	3172398
+2026-08-26 05:24	canon_bfi_n_s1	canonical_bfi	yolo26n.pt	1	300	50	18	68	31083	2113644	{}	train/edge_distill/best_models/canon_bfi_n_s1_best_e18.pt
+2026-08-26 05:53	t1s1_ft_canon_bfi_n_s1	canonical_bfi	t1_nano_k025_t024_s1_n_s1_best_e2.pt	1	300	50	1	51	31083	1585233	{}	<cluster-home>	3173205
+2026-08-26 08:02	t1_nano_k025_t024_s4_n_s2	t1_rfdetr_seg_nano_k0.25_t0.24_s4	yolo26n.pt	2	60	15	10	25	69609	1740225	{}	<cluster-home>	3173418
+2026-08-26 08:04	t1_nano_k025_t024_s2_n_s3	t1_rfdetr_seg_nano_k0.25_t0.24_s2	yolo26n.pt	3	60	15	2	17	108387	1842579	{}	<cluster-home>	3173402
+2026-08-26 08:55	t1_nano_k025_t015_s1_n_s1	t1_rfdetr_seg_nano_k0.25_t0.15_s1	yolo26n.pt	1	60	15	3	18	191568	3448224	{}	<cluster-home>	3173149
+2026-08-26 09:05	t1s1_ftlow_canon_bfi_n_s1	canonical_bfi	t1_nano_k025_t024_s1_n_s1_best_e2.pt	1	40	10	6	16	31083	497328	{"optimizer": "SGD", "lr0": 0.001, "warmup_epochs": 0}	<cluster-home>	3173782
+2026-08-26 09:08	t1s2_ftlow_canon_bfi_n_s2	canonical_bfi	t1_nano_k025_t024_s1_n_s2_best_e2.pt	2	40	10	5	15	31083	466245	{"optimizer": "SGD", "lr0": 0.001, "warmup_epochs": 0}	<cluster-home>	3173783
+2026-08-26 09:54	interp_gt_s1_n_s1	interp_gt_s1	yolo26n.pt	1	60	15	2	17	191613	3257421	{}	train/edge_distill/best_models/interp_gt_s1_n_s1_best_e2.pt
+2026-08-26 09:20	t1s3_ftlow_canon_bfi_n_s3	canonical_bfi	t1_nano_k025_t024_s1_n_s3_best_e2.pt	3	40	10	5	15	31083	466245	{"optimizer": "SGD", "lr0": 0.001, "warmup_epochs": 0}	<cluster-home>	3173800
+2026-08-26 09:35	t1_nano_k025_t035_s1_n_s1	t1_rfdetr_seg_nano_k0.25_t0.35_s1	yolo26n.pt	1	60	15	2	17	190304	3235168	{}	<cluster-home>	3173240
+2026-08-26 09:56	t1s3_ftlow_canon_bfi_n_s3	canonical_bfi	t1_nano_k025_t024_s1_n_s3_best_e2.pt	3	40	10	5	15	31083	466245	{"optimizer": "SGD", "lr0": 0.001, "warmup_epochs": 0}	<cluster-home>	3173980
+2026-08-26 10:07	t1_nano_k025_t024_s1_keepempty_n_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s1_keepempty	yolo26n.pt	1	60	15	2	17	191619	3257523	{}	<cluster-home>	3173292
+2026-08-26 13:02	t1_nano_k025_t024_s4_n_s3	t1_rfdetr_seg_nano_k0.25_t0.24_s4	yolo26n.pt	3	60	15	24	39	69609	2714751	{}	<cluster-home>	3173976
+2026-08-26 14:37	t1_nano_k025_t024_s2_n_s2	t1_rfdetr_seg_nano_k0.25_t0.24_s2	yolo26n.pt	2	60	15	25	40	108387	4335480	{}	<cluster-home>	3173974
+2026-08-26 14:38	canon_bfi_s_s1	canonical_bfi	yolo26s.pt	1	300	50	1	51	31083	1585233	{}	<cluster-home>	3174090
+2026-08-26 16:05	kd_bfi_x_n_s1	canonical_bfi	yolo26n.pt	1	300	50	17	67	31083	2082561	{"distill_model": "<data-root>/RipBench_v1.2.0/models/bbox_from_instance/best_models/9_bfi_yolo26_xlarge_best_e21_j2853807.pt", "dis": 6.0}	train/edge_distill/best_models/kd_bfi_x_n_s1_best_e17.pt
+2026-08-26 16:27	kd_t1_n_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26n.pt	1	60	15	3	18	191258	3442644	{"distill_model": "9_bfi_yolo26_xlarge_best_e21_j2853807.pt", "dis": 6.0}	<cluster-home>	3173350
+2026-08-26 17:00	t1_nano_k025_t024_s1_noneg_n_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s1_noneg	yolo26n.pt	1	60	15	4	19	136813	2599447	{}	<cluster-home>	3174101
+2026-08-26 19:03	t1_nano_k025_t024_s1_s_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26s.pt	1	60	15	1	16	191258	3060128	{}	<cluster-home>	3174091
+2026-08-26 19:31	t1_nanoadd_k025_t024_s1_n_s1	t1_rfdetr_seg_nano_add_k0.25_t0.24_s1	yolo26n.pt	1	60	15	24	39	191217	7457463	{}	<cluster-home>	3173972
+2026-08-26 20:02	canon_bfi_s_s2	canonical_bfi	yolo26s.pt	2	300	50	25	75	31083	2331225	{}	<cluster-home>	3177688
+2026-08-26 21:29	kd_t1_n_s2	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26n.pt	2	60	15	3	18	191258	3442644	{"distill_model": "9_bfi_yolo26_xlarge_best_e21_j2853807.pt", "dis": 6.0}	<cluster-home>	3173939
+2026-08-26 21:40	kd_interp_n_s2	interp_gt_s1	yolo26n.pt	2	60	15	2	17	191613	3257421	{"distill_model": "9_bfi_yolo26_xlarge_best_e21_j2853807.pt", "dis": 6.0}	<cluster-home>	3173962
+2026-08-26 22:04	t1_nano_k025_t024_s1_s_s2	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26s.pt	2	60	15	1	16	191258	3060128	{}	<cluster-home>	3177689
+2026-08-26 22:06	t1_nano_k025_t024_s1_noneg_n_s2	t1_rfdetr_seg_nano_k0.25_t0.24_s1_noneg	yolo26n.pt	2	60	15	3	18	136813	2462634	{}	<cluster-home>	3177883
+2026-08-26 22:50	kd_t1_n_s3	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26n.pt	3	60	15	2	17	191258	3251386	{"distill_model": "9_bfi_yolo26_xlarge_best_e21_j2853807.pt", "dis": 6.0}	<cluster-home>	3174088
+2026-08-26 23:31	kd_interp_n_s3	interp_gt_s1	yolo26n.pt	3	60	15	3	18	191613	3449034	{"distill_model": "9_bfi_yolo26_xlarge_best_e21_j2853807.pt", "dis": 6.0}	<cluster-home>	3174089
+2026-08-27 00:38	canon_bfi_s_s3	canonical_bfi	yolo26s.pt	3	300	50	17	67	31083	2082561	{}	train/edge_distill/best_models/canon_bfi_s_s3_best_e17.pt
+2026-08-27 00:35	t1_nano_k0_t024_s1_n_s2	t1_rfdetr_seg_nano_k0_t0.24_s1	yolo26n.pt	2	60	15	2	17	191616	3257472	{}	<cluster-home>	3177884
+2026-08-27 03:07	t1_nano_k025_t024_s1_noneg_n_s3	t1_rfdetr_seg_nano_k0.25_t0.24_s1_noneg	yolo26n.pt	3	60	15	3	18	136813	2462634	{}	<cluster-home>	3178449
+2026-08-27 06:52	t1_nano_k025_t024_s1_s_s3	t1_rfdetr_seg_nano_k0.25_t0.24_s1	yolo26s.pt	3	60	15	3	18	191258	3442644	{}	train/edge_distill/best_models/t1_nano_k025_t024_s1_s_s3_best_e3.pt
+2026-08-27 08:15	t1_nano_k0_t024_s1_n_s3	t1_rfdetr_seg_nano_k0_t0.24_s1	yolo26n.pt	3	60	15	2	17	191616	3257472	{}	<cluster-home>	3178636
+2026-08-27 14:19	h50_sparse_n_s2	h50_sparse	yolo26n.pt	2	300	50	24	74	19032	1408368	{}	<cluster-home>	3180410
+2026-08-27 14:25	h50_sparse_n_s1	h50_sparse	yolo26n.pt	1	300	50	35	85	19032	1617720	{}	<cluster-home>	3180388
+2026-08-27 15:50	h50_sparse_n_s3	h50_sparse	yolo26n.pt	3	300	50	31	81	19032	1541592	{}	<cluster-home>	3180748
+2026-08-27 16:00	h50_interp_n_s1	h50_interp	yolo26n.pt	1	60	15	6	21	115624	2428104	{}	<cluster-home>	3180389
+2026-08-27 16:14	h50_interp_n_s2	h50_interp	yolo26n.pt	2	60	15	4	19	115624	2196856	{}	<cluster-home>	3180583
+2026-08-27 17:02	h50_interp_n_s3	h50_interp	yolo26n.pt	3	60	15	6	21	115624	2428104	{}	<cluster-home>	3180816
+2026-08-27 18:24	h50_sparse_s_s1	h50_sparse	yolo26s.pt	1	300	50	9	59	19032	1122888	{}	<cluster-home>	3181470
+2026-08-27 20:11	h50_interp_s_s1	h50_interp	yolo26s.pt	1	60	15	2	17	115624	1965608	{}	<cluster-home>	3181471
+2026-08-27 20:46	h50_interp_negall_n_s2	h50_interp_negall	yolo26n.pt	2	60	15	3	18	147793	2660274	{}	<cluster-home>	3181609
+2026-08-27 21:04	h50_interp_negall_n_s3	h50_interp_negall	yolo26n.pt	3	60	15	3	18	147793	2660274	{}	<cluster-home>	3181610
+2026-08-27 21:08	h50_interp_negall_n_s1	h50_interp_negall	yolo26n.pt	1	60	15	3	18	147793	2660274	{}	<cluster-home>	3181608
+2026-08-27 23:26	interp_gt_a2_n_s1	interp_gt_a2	yolo26n.pt	1	60	15	2	17	201691	3428747	{}	<cluster-home>	3181764
+2026-08-27 23:46	h50_sparse_s_s2	h50_sparse	yolo26s.pt	2	300	50	15	65	19032	1237080	{}	<cluster-home>	3182780
+2026-08-27 23:52	interp_gt_a8_n_s1	interp_gt_a8	yolo26n.pt	1	60	15	2	17	200052	3400884	{}	<cluster-home>	3181910
+2026-08-28 00:26	interp_gt_a16_n_s1	interp_gt_a16	yolo26n.pt	1	60	15	3	18	197718	3558924	{}	<cluster-home>	3182011
+2026-08-28 00:27	interp_gt_a4_n_s1	interp_gt_a4	yolo26n.pt	1	60	15	3	18	201162	3620916	{}	<cluster-home>	3181765
+2026-08-28 01:51	h50_interp_s_s2	h50_interp	yolo26s.pt	2	60	15	3	18	115624	2081232	{}	<cluster-home>	3182781
+2026-08-28 13:19	h50_teacher_n_s1	h50_teacher	yolo26n.pt	1	60	15	2	17	191112	3248904	{}	<cluster-home>	3184509
+2026-08-28 13:38	h50_teacher_dropempty_n_s1	h50_teacher_dropempty	yolo26n.pt	1	60	15	3	18	152684	2748312	{}	<cluster-home>	3184532
+2026-08-28 13:40	h50_teacher_n_s2	h50_teacher	yolo26n.pt	2	60	15	2	17	191112	3248904	{}	<cluster-home>	3184510
+2026-08-28 14:56	h50_teacher_n_s3	h50_teacher	yolo26n.pt	3	60	15	3	18	191112	3440016	{}	<cluster-home>	3184511
+2026-09-05 03:17	h50_teacher_cme_n_s1	h50_teacher	yolo26n.pt	1	46	15	3	18	191112	3440016	{}	<cluster-home>	3221350
+2026-09-15 21:34	t1_nano_k025_t024_s4_s_s2	t1_rfdetr_seg_nano_k0.25_t0.24_s4	yolo26s.pt	2	60	15	2	17	69609	1183353	{}	<cluster-home>	3296350
+2026-09-15 21:45	t1_nano_k025_t024_s4_s_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s4	yolo26s.pt	1	60	15	2	17	69609	1183353	{}	<cluster-home>	3296349
+2026-09-15 22:13	t1_nano_k025_t024_s4_s_s3	t1_rfdetr_seg_nano_k0.25_t0.24_s4	yolo26s.pt	3	60	15	4	19	69609	1322571	{}	<cluster-home>	3296351
+2026-09-15 22:33	t1_nano_k025_t024_s2_s_s1	t1_rfdetr_seg_nano_k0.25_t0.24_s2	yolo26s.pt	1	60	15	2	17	108387	1842579	{}	<cluster-home>	3296352
+2026-09-15 23:20	t1_nano_k025_t024_s2_s_s3	t1_rfdetr_seg_nano_k0.25_t0.24_s2	yolo26s.pt	3	60	15	3	18	108387	1950966	{}	<cluster-home>	3296354
+2026-09-15 23:28	t1_nano_k025_t024_s2_s_s2	t1_rfdetr_seg_nano_k0.25_t0.24_s2	yolo26s.pt	2	60	15	3	18	108387	1950966	{}	<cluster-home>	3296353
+2026-09-16 01:06	interp_gt_s1_s_s2	interp_gt_s1	yolo26s.pt	2	60	15	2	17	191613	3257421	{}	<cluster-home>	3296308
+2026-09-16 01:36	interp_gt_s1_s_s3	interp_gt_s1	yolo26s.pt	3	60	15	1	16	191613	3065808	{}	<cluster-home>	3296309
+2026-09-16 02:16	interp_gt_s1_s_s1	interp_gt_s1	yolo26s.pt	1	60	15	2	17	191613	3257421	{}	<cluster-home>	3296307

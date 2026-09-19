@@ -1,0 +1,12 @@
+2026-08-26 16:21	canon_bfi_n_s1_best_e18	onnxruntime-cuda	fp32	640	1000	5	2.33	2.200	0.013	454.6	NVIDIA GeForce RTX 4090
+2026-08-26 16:21	canon_bfi_n_s1_best_e18	onnxruntime-cuda	fp16	640	1000	5	3.64	2.153	0.116	464.5	NVIDIA GeForce RTX 4090
+2026-08-26 16:22	canon_bfi_n_s1_best_e18	onnxruntime-cuda	fp32	512	1000	5	1.39	1.918	0.016	521.4	NVIDIA GeForce RTX 4090
+2026-08-26 16:22	canon_bfi_n_s1_best_e18	onnxruntime-cuda	fp16	512	1000	5	1.41	1.843	0.009	542.7	NVIDIA GeForce RTX 4090
+2026-08-26 16:22	canon_bfi_n_s1_best_e18	onnxruntime-cuda	fp32	384	1000	5	0.92	1.694	0.007	590.3	NVIDIA GeForce RTX 4090
+2026-08-26 16:22	canon_bfi_n_s1_best_e18	onnxruntime-cuda	fp16	384	1000	5	0.77	1.664	0.002	601.1	NVIDIA GeForce RTX 4090
+2026-08-26 16:23	t1_nano_k025_t024_s1_n_s1_best_e2	onnxruntime-cuda	fp32	640	1000	5	2.52	2.271	0.138	440.4	NVIDIA GeForce RTX 4090
+2026-08-26 16:23	t1_nano_k025_t024_s1_n_s1_best_e2	onnxruntime-cuda	fp16	640	1000	5	1.85	2.099	0.011	476.5	NVIDIA GeForce RTX 4090
+2026-08-26 16:23	t1_nano_k025_t024_s1_n_s1_best_e2	onnxruntime-cuda	fp32	512	1000	5	1.26	1.919	0.006	521.1	NVIDIA GeForce RTX 4090
+2026-08-26 16:23	t1_nano_k025_t024_s1_n_s1_best_e2	onnxruntime-cuda	fp16	512	1000	5	1.26	1.845	0.010	542.1	NVIDIA GeForce RTX 4090
+2026-08-26 16:23	t1_nano_k025_t024_s1_n_s1_best_e2	onnxruntime-cuda	fp32	384	1000	5	0.78	1.697	0.011	589.2	NVIDIA GeForce RTX 4090
+2026-08-26 16:24	t1_nano_k025_t024_s1_n_s1_best_e2	onnxruntime-cuda	fp16	384	1000	5	0.77	1.658	0.005	603.1	NVIDIA GeForce RTX 4090

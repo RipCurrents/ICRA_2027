@@ -1,0 +1,8 @@
+# Rip-current edge app — Python >= 3.10.  Local: conda create -n icra_app python=3.11 && pip install -r requirements.txt
+# (never install into yoloV26 / rfdetr / maskdino).  Tested 2026-08-27 with gradio 6.26, onnxruntime 1.29, opencv 4.14, numpy 2.4.
+gradio>=6,<7                     # UI only; the headless mode needs just the three lines below
+onnxruntime>=1.17                # CPU build. GPU hosts: onnxruntime-gpu instead (Jetson: NVIDIA's JetPack wheel).
+opencv-python-headless>=4.8,<5   # on a Jetson keep JetPack's own cv2 (drop this line) if it is already installed
+numpy>=1.24
+# Optional, not from pip: ffmpeg on PATH (browser-playable H.264 reports), tegrastats (Jetson power),
+# tensorrt + pycuda from JetPack (backend "trt-engine" / "auto" with engines built by ../jetson_measure.py).

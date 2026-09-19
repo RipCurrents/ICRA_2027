@@ -1,0 +1,13 @@
+model_file	md5	role	input_px	decode	frame_conf_tight	frame_conf_bfi	cascade_gate_thr	S2_alert_thr	notes
+t1_nano_k025_t024_s1_n_s1_best_e2_384.onnx	f7fce46ba6f88dc74fc81f8d15a9e2eb	dense yolo26n (deployed)	384	ultralytics e2e (board_bench.decode)	0.04	0.04	0.50	-	frame rows + cascade
+t1_nano_k025_t024_s1_n_s1_best_e2_640.onnx	31c2e938a5b6652c8939feb91530c244	dense yolo26n	640	ultralytics e2e	0.04	0.04	0.50	-	
+canon_bfi_n_s1_best_e18_384.onnx	79ae64cf47801c937aac8e054571b0e0	expert yolo26n	384	ultralytics e2e	0.03	0.03	0.50	-	
+canon_bfi_n_s1_best_e18_640.onnx	883329f57802bef60047da8f5de92d45	expert yolo26n	640	ultralytics e2e	0.03	0.03	0.50	-	
+t1_nano_k025_t024_s1_s_s3_best_e3_384.onnx	645d87c32819fedaa9a78239d5bbe7de	dense yolo26s	384	ultralytics e2e	0.02	0.01	0.50	-	
+t1_nano_k025_t024_s1_s_s3_best_e3_640.onnx	33d2a685dddef8b10a5d57d1cfe6dc4e	dense yolo26s	640	ultralytics e2e	0.02	0.01	0.50	-	
+canon_bfi_s_s1_best_e1_384.onnx	c24be37e85268943ae80713dc3cd88fc	expert yolo26s	384	ultralytics e2e	0.07	0.05	0.50	-	fidelity: 640 export PASS (0.559 vs 0.562); 384 row pending
+canon_bfi_s_s1_best_e1_640.onnx	9837de7659413c5a94ff3ffeb01b32ee	expert yolo26s	640	ultralytics e2e	0.07	0.05	0.50	-	fidelity PASS
+rfdetr_n_det_640.onnx	651962750eded9eb60c0958d0a7b30af	RF-DETR-n (file name says 640; input is 384)	384	rfdetr_onnx_bench.decode (rip=idx 0, sigmoid)	0.23	-	0.50	-	tight view only
+rfdetr_s_det_512.onnx	8e52135b5e04890a135f3d590793495b	RF-DETR-s	512	rfdetr_onnx_bench.decode	0.26	-	0.50	-	fidelity pending
+rfdetr_m_det_576.onnx	52c7f51004c4c60389cd139f00f17b36	RF-DETR-m	576	rfdetr_onnx_bench.decode	0.31	-	0.50	-	fidelity pending
+yolo26n_cls_224_gate.onnx	013ae4f0129812f944fb4d6518ca0778	cls gate	224	board_bench.classify_preprocess (center crop) -> P(rip)=probs[1]	-	-	0.50	0.90	cascade gate 0.50; S2 classify-only alert 0.90

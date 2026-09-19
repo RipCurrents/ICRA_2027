@@ -1,0 +1,7 @@
+detector	frame_conf	frame_vF2	frame_F2max	alarm_conf	alarm_frameF2	alarm_vF2	gain	verdict
+yolo26n dense (deployed)	0.04	0.811	0.4770	0.02	0.4743	0.839	+0.028	KEEP FRAME OP -> conf 0.04
+yolo26s dense	0.02	0.845	0.5465	0.05	0.5315	0.850	+0.005	KEEP FRAME OP -> conf 0.02
+yolo26s expert-label	0.07	0.861	0.5621	0.07	0.5621	0.861	+0.000	KEEP FRAME OP -> conf 0.07
+RF-DETR-n	0.23	0.872	0.6802	0.3	0.6695	0.872	+0.000	KEEP FRAME OP -> conf 0.23
+RF-DETR-s	0.26	0.845	0.6456	0.3	0.6441	0.845	+0.000	KEEP FRAME OP -> conf 0.26
+RF-DETR-m	0.31	0.833	0.6114	0.3	0.6106	0.833	+0.000	KEEP FRAME OP -> conf 0.31

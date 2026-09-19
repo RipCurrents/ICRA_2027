@@ -1,0 +1,285 @@
+timestamp	variant	n_seeds	video	rip	TP	FP	FN	F2	viewpoint	camera_motion	signature
+2026-08-27 16:04	yolo26n canonical	3	RipBench-002	yes	49	9	584	0.0946	water_level_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-008	yes	26	128	52	0.2790	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-009	yes	292	204	8	0.8608	elevated_beachfront	static	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-013	yes	194	134	415	0.3509	aerial_tilted	static	foam_plume
+2026-08-27 16:04	yolo26n canonical	3	RipBench-025	yes	3806	782	70	0.9471	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-027	yes	763	1748	1811	0.2979	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-038	yes	594	50	27	0.9495	elevated_beachfront	static	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-043	yes	415	453	368	0.5187	aerial_tilted	static	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-048	yes	89	67	34	0.6867	elevated_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-055	yes	123	351	123	0.4218	aerial_tilted	static	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-059	yes	0	6	135	0.0000	water_level_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-072	yes	6	4	27	0.2113	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-073	yes	0	0	30	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-074	yes	29	16	16	0.6444	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-078	yes	222	326	186	0.5092	aerial_tilted	translation	sediment_plume
+2026-08-27 16:04	yolo26n canonical	3	RipBench-079	yes	1617	1913	657	0.6403	aerial_bird's eye	translation	sediment_plume
+2026-08-27 16:04	yolo26n canonical	3	RipBench-099	yes	120	79	9	0.8392	water_level_beachfront	translation	breaking_wave_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-113	yes	17	346	337	0.0478	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-114	yes	0	1	315	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-119	yes	276	537	2070	0.1353	aerial_tilted	translation	sediment_plume
+2026-08-27 16:04	yolo26n canonical	3	RipBench-120	yes	109	61	23	0.7808	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-125	yes	0	17	450	0.0000	aerial_bird's eye		sediment_plume
+2026-08-27 16:04	yolo26n canonical	3	RipBench-130	yes	0	0	138	0.0000	elevated_beachfront	shake	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-131	yes	1	105	539	0.0022	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-132	yes	92	102	28	0.6825	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-138	yes	14	54	40	0.2465	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-139	yes	0	10	24	0.0000	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-142	yes	9	38	357	0.0298	aerial_bird's eye	translation	sediment_plume
+2026-08-27 16:04	yolo26n canonical	3	RipBench-145	yes	0	3	225	0.0000	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-147	yes	0	44	234	0.0000	aerial_bird's eye	static	sediment_plume
+2026-08-27 16:04	yolo26n canonical	3	RipBench-151	yes	30	55	306	0.1050	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-001	no	0	8	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-005	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-013	no	0	0	0	0.0000	water_level_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-014	no	0	14	0	0.0000	water_level_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-021	no	0	15	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-023	no	0	2	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-036	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-038	no	0	8	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-047	no	0	1	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-052	no	0	219	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-055	no	0	3	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-060	no	0	54	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-065	no	0	16	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-073	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-074	no	0	12	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-077	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-079	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-083	no	0	4	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-088	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-092	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-093	no	0	1	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-094	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-095	no	0	35	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-104	no	0	22	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-106	no	0	2	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-113	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-116	no	0	2	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-119	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-120	no	0	133	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-121	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-127	no	0	7	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-128	no	0	105	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-129	no	0	5	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-134	no	0	42	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-137	no	0	147	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-141	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-142	no	0	2	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-145	no	0	38	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-151	no	0	380	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n canonical	3	RipBench-NR-152	no	0	7	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-002	yes	2	16	631	0.0039	water_level_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-008	yes	78	44	0	0.8986	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-009	yes	297	195	3	0.8777	elevated_beachfront	static	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-013	yes	76	334	533	0.1335	aerial_tilted	static	foam_plume
+2026-08-27 16:04	yolo26n dense	3	RipBench-025	yes	3800	637	76	0.9528	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-027	yes	1281	952	1293	0.5112	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-038	yes	552	82	69	0.8852	elevated_beachfront	static	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-043	yes	596	527	187	0.7004	aerial_tilted	static	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-048	yes	85	66	38	0.6610	elevated_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-055	yes	110	369	136	0.3759	aerial_tilted	static	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-059	yes	3	30	132	0.0262	water_level_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-072	yes	0	48	33	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-073	yes	0	0	30	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-074	yes	0	2	45	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-078	yes	222	427	186	0.4866	aerial_tilted	translation	sediment_plume
+2026-08-27 16:04	yolo26n dense	3	RipBench-079	yes	1928	1843	346	0.7492	aerial_bird's eye	translation	sediment_plume
+2026-08-27 16:04	yolo26n dense	3	RipBench-099	yes	115	60	14	0.8321	water_level_beachfront	translation	breaking_wave_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-113	yes	9	240	345	0.0270	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-114	yes	5	0	310	0.0198	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-119	yes	305	577	2041	0.1485	aerial_tilted	translation	sediment_plume
+2026-08-27 16:04	yolo26n dense	3	RipBench-120	yes	120	58	12	0.8499	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-125	yes	0	2	450	0.0000	aerial_bird's eye		sediment_plume
+2026-08-27 16:04	yolo26n dense	3	RipBench-130	yes	2	1	136	0.0180	elevated_beachfront	shake	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-131	yes	21	54	519	0.0470	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-132	yes	79	68	41	0.6300	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-138	yes	5	19	49	0.1042	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-139	yes	0	0	24	0.0000	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-142	yes	0	23	366	0.0000	aerial_bird's eye	translation	sediment_plume
+2026-08-27 16:04	yolo26n dense	3	RipBench-145	yes	0	0	225	0.0000	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-147	yes	0	0	234	0.0000	aerial_bird's eye	static	sediment_plume
+2026-08-27 16:04	yolo26n dense	3	RipBench-151	yes	12	14	324	0.0438	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-001	no	0	2	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-005	no	0	3	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-013	no	0	0	0	0.0000	water_level_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-014	no	0	19	0	0.0000	water_level_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-021	no	0	10	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-023	no	0	10	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-036	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-038	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-047	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-052	no	0	99	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-055	no	0	2	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-060	no	0	14	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-065	no	0	19	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-073	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-074	no	0	100	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-077	no	0	2	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-079	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-083	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-088	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-092	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-093	no	0	34	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-094	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-095	no	0	40	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-104	no	0	52	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-106	no	0	1	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-113	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-116	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-119	no	0	1	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-120	no	0	108	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-121	no	0	29	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-127	no	0	37	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-128	no	0	22	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-129	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-134	no	0	27	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-137	no	0	135	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-141	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-142	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-145	no	0	20	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-151	no	0	95	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense	3	RipBench-NR-152	no	0	5	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-002	yes	6	21	627	0.0117	water_level_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-008	yes	78	38	0	0.9112	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-009	yes	297	3	3	0.9900	elevated_beachfront	static	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-013	yes	97	331	512	0.1693	aerial_tilted	static	foam_plume
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-025	yes	3819	504	57	0.9631	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-027	yes	1471	952	1103	0.5783	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-038	yes	567	47	54	0.9151	elevated_beachfront	static	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-043	yes	684	548	99	0.7837	aerial_tilted	static	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-048	yes	83	40	40	0.6748	elevated_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-055	yes	113	363	133	0.3870	aerial_tilted	static	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-059	yes	4	44	131	0.0340	water_level_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-072	yes	0	37	33	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-073	yes	0	0	30	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-074	yes	0	1	45	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-078	yes	221	280	187	0.5180	aerial_tilted	translation	sediment_plume
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-079	yes	2021	1908	253	0.7758	aerial_bird's eye	translation	sediment_plume
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-099	yes	122	33	7	0.9091	water_level_beachfront	translation	breaking_wave_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-113	yes	18	422	336	0.0485	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-114	yes	9	1	306	0.0354	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-119	yes	395	654	1951	0.1893	aerial_tilted	translation	sediment_plume
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-120	yes	129	38	3	0.9281	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-125	yes	0	0	450	0.0000	aerial_bird's eye		sediment_plume
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-130	yes	4	0	134	0.0360	elevated_beachfront	shake	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-131	yes	33	56	507	0.0734	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-132	yes	97	75	23	0.7439	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-138	yes	9	31	45	0.1758	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-139	yes	0	0	24	0.0000	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-142	yes	0	35	366	0.0000	aerial_bird's eye	translation	sediment_plume
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-145	yes	0	0	225	0.0000	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-147	yes	0	0	234	0.0000	aerial_bird's eye	static	sediment_plume
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-151	yes	20	17	316	0.0724	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-001	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-005	no	0	5	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-013	no	0	0	0	0.0000	water_level_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-014	no	0	27	0	0.0000	water_level_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-021	no	0	16	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-023	no	0	19	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-036	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-038	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-047	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-052	no	0	103	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-055	no	0	2	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-060	no	0	20	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-065	no	0	24	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-073	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-074	no	0	141	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-077	no	0	3	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-079	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-083	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-088	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-092	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-093	no	0	48	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-094	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-095	no	0	55	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-104	no	0	91	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-106	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-113	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-116	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-119	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-120	no	0	140	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-121	no	0	45	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-127	no	0	44	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-128	no	0	32	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-129	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-134	no	0	30	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-137	no	0	125	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-141	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-142	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-145	no	0	28	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-151	no	0	84	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26n dense + sm2	3	RipBench-NR-152	no	0	5	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-002	yes	196	242	437	0.3300	water_level_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-008	yes	73	42	5	0.8548	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-009	yes	280	164	20	0.8516	elevated_beachfront	static	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-013	yes	354	248	255	0.5826	aerial_tilted	static	foam_plume
+2026-08-27 16:04	yolo26s dense	3	RipBench-025	yes	3782	825	94	0.9403	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-027	yes	1461	1296	1113	0.5596	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-038	yes	582	102	39	0.9186	elevated_beachfront	static	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-043	yes	272	1194	511	0.2958	aerial_tilted	static	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-048	yes	91	49	32	0.7199	elevated_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-055	yes	97	573	149	0.2932	aerial_tilted	static	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-059	yes	24	21	111	0.2051	water_level_beachfront	shake	breaking_wave_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-072	yes	2	15	31	0.0671	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-073	yes	1	0	29	0.0413	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-074	yes	24	40	21	0.4918	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-078	yes	222	397	186	0.4931	aerial_tilted	translation	sediment_plume
+2026-08-27 16:04	yolo26s dense	3	RipBench-079	yes	1747	1751	527	0.6936	aerial_bird's eye	translation	sediment_plume
+2026-08-27 16:04	yolo26s dense	3	RipBench-099	yes	113	156	16	0.7197	water_level_beachfront	translation	breaking_wave_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-113	yes	75	672	279	0.1734	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-114	yes	0	3	315	0.0000	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-119	yes	778	897	1568	0.3517	aerial_tilted	translation	sediment_plume
+2026-08-27 16:04	yolo26s dense	3	RipBench-120	yes	107	30	25	0.8045	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-125	yes	0	2	450	0.0000	aerial_bird's eye		sediment_plume
+2026-08-27 16:04	yolo26s dense	3	RipBench-130	yes	31	15	107	0.2592	elevated_beachfront	shake	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-131	yes	0	26	540	0.0000	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-132	yes	103	162	17	0.6913	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-138	yes	22	27	32	0.4151	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-139	yes	1	4	23	0.0495	elevated_beachfront	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-142	yes	0	38	366	0.0000	aerial_bird's eye	translation	sediment_plume
+2026-08-27 16:04	yolo26s dense	3	RipBench-145	yes	0	0	225	0.0000	aerial_bird's eye	static	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-147	yes	0	2	234	0.0000	aerial_bird's eye	static	sediment_plume
+2026-08-27 16:04	yolo26s dense	3	RipBench-151	yes	176	235	160	0.5014	aerial_tilted	translation	dark_gap
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-001	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-005	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-013	no	0	0	0	0.0000	water_level_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-014	no	0	0	0	0.0000	water_level_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-021	no	0	19	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-023	no	0	4	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-036	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-038	no	0	0	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-047	no	0	19	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-052	no	0	131	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-055	no	0	42	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-060	no	0	210	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-065	no	0	34	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-073	no	0	110	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-074	no	0	100	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-077	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-079	no	0	4	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-083	no	0	17	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-088	no	0	15	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-092	no	0	48	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-093	no	0	81	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-094	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-095	no	0	85	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-104	no	0	231	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-106	no	0	5	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-113	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-116	no	0	9	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-119	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-120	no	0	143	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-121	no	0	24	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-127	no	0	17	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-128	no	0	358	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-129	no	0	7	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-134	no	0	159	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-137	no	0	37	0	0.0000	aerial_bird's eye		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-141	no	0	0	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-142	no	0	0	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-145	no	0	67	0	0.0000	elevated_beachfront		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-151	no	0	334	0	0.0000	aerial_tilted		none
+2026-08-27 16:04	yolo26s dense	3	RipBench-NR-152	no	0	237	0	0.0000	aerial_tilted		none

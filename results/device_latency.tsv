@@ -1,0 +1,27 @@
+model	imgsz	precision	engine	infer_ms	F2_device	accuracy_source	device	power_mode
+t1_nano_k025_t024_s1_n_s1_best_e2	384	fp32	orin-nano-super-trt10.3-maxn	3.770	0.5446	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_n_s1_best_e2	384	fp16	orin-nano-super-trt10.3-maxn	2.483	0.5451	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_n_s1_best_e2	512	fp32	orin-nano-super-trt10.3-maxn	5.151	0.5463	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_n_s1_best_e2	512	fp16	orin-nano-super-trt10.3-maxn	3.321	0.5459	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_n_s1_best_e2	640	fp32	orin-nano-super-trt10.3-maxn	7.147	0.5401	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_n_s1_best_e2	640	fp16	orin-nano-super-trt10.3-maxn	4.375	0.5408	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	384	fp32	orin-nano-super-trt10.3-maxn	3.735	0.5950	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	384	fp16	orin-nano-super-trt10.3-maxn	2.493	0.5952	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	512	fp32	orin-nano-super-trt10.3-maxn	5.144	0.6002	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	512	fp16	orin-nano-super-trt10.3-maxn	3.334	0.5992	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	640	fp32	orin-nano-super-trt10.3-maxn	7.141	0.5343	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	640	fp16	orin-nano-super-trt10.3-maxn	4.385	0.5336	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_s_s3_best_e3	384	fp32	orin-nano-super-trt10.3-maxn	6.381	0.5667	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_s_s3_best_e3	384	fp16	orin-nano-super-trt10.3-maxn	3.663	0.5675	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_s_s3_best_e3	512	fp32	orin-nano-super-trt10.3-maxn	8.839	0.5572	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_s_s3_best_e3	512	fp16	orin-nano-super-trt10.3-maxn	4.888	0.5570	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_s_s3_best_e3	640	fp32	orin-nano-super-trt10.3-maxn	13.182	0.5493	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_s_s3_best_e3	640	fp16	orin-nano-super-trt10.3-maxn	6.955	0.5493	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+1_det_rfdetr_nano_best_best_ema_j3178618	384	fp32	orin-nano-super-trt10.3-maxn	15.835	0.7024	device dump (INTER_AREA, rf_area_20260908)	Jetson Orin Nano Super	MAXN
+1_det_rfdetr_nano_best_best_ema_j3178618	384	fp16	orin-nano-super-trt10.3-maxn	7.331	0.7024	device dump (INTER_AREA, rf_area_20260908)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_n_s1_best_e2	384	int8	orin-nano-super-trt10.3-maxn (trtexec)	2.741	0.4961	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_n_s1_best_e2	512	int8	orin-nano-super-trt10.3-maxn (trtexec)	3.452	0.5160	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+t1_nano_k025_t024_s1_n_s1_best_e2	640	int8	orin-nano-super-trt10.3-maxn (trtexec)	4.488	0.5009	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	384	int8	orin-nano-super-trt10.3-maxn (trtexec)	2.733	0.4194	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	512	int8	orin-nano-super-trt10.3-maxn (trtexec)	3.448	0.2447	device dump (tight GT)	Jetson Orin Nano Super	MAXN
+canon_bfi_n_s1_best_e18	640	int8	orin-nano-super-trt10.3-maxn (trtexec)	4.556	0.4491	device dump (tight GT)	Jetson Orin Nano Super	MAXN

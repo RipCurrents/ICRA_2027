@@ -1,0 +1,6 @@
+export	res	conf	onnx_val_F2	benchmark_val_F2	diff	verdict
+expert yolo26s 384	384	0.07	0.4986	0.5621	-0.0635	FAIL
+expert yolo26s 640	640	0.07	0.5587	0.5621	-0.0034	PASS
+expert yolo26s 384	384	0.07	0.4986	0.5083	-0.0097	PASS
+RF-DETR-s 512	512	0.26	0.6621	0.6456	+0.0165	FAIL
+RF-DETR-m 576	576	0.31	0.6221	0.6114	+0.0107	FAIL

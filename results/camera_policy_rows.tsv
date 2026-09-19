@@ -1,0 +1,57 @@
+board	scene	policy	mean_W	decisions_per_s	detector_calls	positives	source	audit
+orin	rip	detector_only	6.91	0.997	598	598	night_camera_20260910/orin/cases/rip_detector_only_repeat/result.json	completed_board_review
+orin	rip	cascade	6.89	0.944	566	566	night_camera_20260910/orin/cases/rip_cascade_recovered/result.json	completed_board_review
+orin	rip	adaptive	6.90	0.999	599	599	night_camera_20260910/orin/cases/rip_adaptive/result.json	completed_board_review
+orin	rip	max_throughput	9.26	18.652	11190	11190	night_camera_20260910/orin/cases/rip_max_throughput_attempt03/result.json	completed_board_review
+orin	norip	detector_only	6.90	0.999	599	33	night_camera_20260910/orin/cases/norip_detector_only_attempt02/result.json	completed_board_review
+orin	norip	cascade	6.72	0.000	0	0	night_camera_20260910/orin/cases/norip_cascade/result.json	completed_board_review
+orin	norip	adaptive	6.84	0.278	167	15	night_camera_20260910/orin/cases/norip_adaptive/result.json	completed_board_review
+orin	norip	max_throughput	9.18	18.637	11182	542	night_camera_20260910/orin/cases/norip_max_throughput_after_reboot/result.json	completed_board_review
+nano	rip	detector_only	5.71	0.995	597	586	night_camera_20260910/nano/cases/rip_detector_only/result.json	completed_board_review
+nano	rip	cascade	5.81	0.940	564	550	night_camera_20260910/nano/cases/rip_cascade/result.json	completed_board_review
+nano	rip	adaptive	5.81	0.997	598	582	night_camera_20260910/nano/cases/rip_adaptive/result.json	completed_board_review
+nano	rip	max_throughput	8.67	7.689	4613	4482	night_camera_20260910/nano/cases/rip_max_throughput/result.json	completed_board_review
+nano	norip	detector_only	5.82	0.997	598	12	night_camera_20260910/nano/cases/norip_detector_only/result.json	completed_board_review
+nano	norip	cascade	5.61	0.000	0	0	night_camera_20260910/nano/cases/norip_cascade/result.json	completed_board_review
+nano	norip	adaptive	5.46	0.220	132	3	night_camera_20260910/nano/cases/norip_adaptive/result.json	completed_board_review
+nano	norip	max_throughput	8.55	7.487	4491	65	night_camera_20260910/nano/cases/norip_max_throughput/result.json	completed_board_review
+nxp	rip	detector_only	9.63	0.999	599	556	night_camera_20260910/nxp/cases/rip_detector_only/result.json	completed_board_review
+nxp	rip	cascade	9.70	0.947	568	537	night_camera_20260910/nxp/cases/rip_cascade/result.json	completed_board_review
+nxp	rip	adaptive	9.68	0.999	599	558	night_camera_20260910/nxp/cases/rip_adaptive/result.json	completed_board_review
+nxp	rip	max_throughput	10.91	20.316	12189	11326	night_camera_20260910/nxp/cases/rip_max_throughput/result.json	completed_board_review
+nxp	norip	detector_only	9.59	0.999	599	88	night_camera_20260910/nxp/cases/norip_detector_only/result.json	completed_board_review
+nxp	norip	cascade	9.58	0.000	0	0	night_camera_20260910/nxp/cases/norip_cascade/result.json	completed_board_review
+nxp	norip	adaptive	9.47	0.278	167	22	night_camera_20260910/nxp/cases/norip_adaptive/result.json	completed_board_review
+nxp	norip	max_throughput	10.87	20.286	12172	1380	night_camera_20260910/nxp/cases/norip_max_throughput/result.json	completed_board_review
+pi5	rip	detector_only	10.21	0.998	599	599	pi5_unattended_20260911/cases/repeat01/rip_detector_only/result.json	completed_board_review
+pi5	rip	cascade	10.07	0.947	568	568	pi5_unattended_20260911/cases/repeat01/rip_cascade/result.json	completed_board_review
+pi5	rip	adaptive	10.24	0.998	599	599	pi5_unattended_20260911/cases/repeat01/rip_adaptive/result.json	completed_board_review
+pi5	rip	max_throughput	14.01	1.785	1072	1072	pi5_unattended_20260911/cases/repeat01/rip_max_throughput/result.json	completed_board_review
+pi5	norip	detector_only	10.10	0.999	599	32	pi5_norip_20260911/cases/evening/norip_detector_only/result.json	completed_board_review
+pi5	norip	cascade	5.62	0.000	0	0	pi5_norip_20260911/cases/evening/norip_cascade/result.json	completed_board_review
+pi5	norip	adaptive	6.81	0.238	143	6	pi5_norip_20260911/cases/evening/norip_adaptive/result.json	completed_board_review
+pi5	norip	max_throughput	13.51	1.727	1037	66	pi5_norip_20260911/cases/evening/norip_max_throughput/result.json	completed_board_review
+pi4_heatsink	rip	adaptive	5.59	0.999	599	599	pi4_heatsink_camera_20260911/cases/rip/rip_adaptive/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_heatsink	rip	cascade	5.67	0.989	593	593	pi4_heatsink_camera_20260911/cases/rip/rip_cascade/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_heatsink	rip	detector_only	5.55	0.999	599	599	pi4_heatsink_camera_20260911/cases/rip/rip_detector_only/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_heatsink	rip	max_throughput	7.26	4.370	2622	2622	pi4_heatsink_camera_20260911/cases/rip/rip_max_throughput/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_heatsink	norip	adaptive	5.19	0.200	120	0	pi4_heatsink_norip_20260912/cases/norip/norip_adaptive/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_heatsink	norip	cascade	5.21	0.000	0	0	pi4_heatsink_norip_20260912/cases/norip/norip_cascade/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_heatsink	norip	detector_only	5.55	0.999	599	0	pi4_heatsink_norip_20260912/cases/norip/norip_detector_only/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_heatsink	norip	max_throughput	7.23	4.401	2642	0	pi4_heatsink_norip_20260912/cases/norip/norip_max_throughput/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_bare	rip	adaptive	5.62	0.999	599	599	pi4_bare_camera_20260912/cases/rip/rip_adaptive/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_bare	rip	cascade	5.71	0.987	592	592	pi4_bare_camera_20260912/cases/rip/rip_cascade/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_bare	rip	detector_only	5.56	0.999	599	599	pi4_bare_camera_20260912/cases/rip/rip_detector_only/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_bare	rip	max_throughput	7.19	4.265	2560	2560	pi4_bare_camera_20260912/cases/rip/rip_max_throughput/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_bare	norip	adaptive	5.23	0.200	120	0	pi4_bare_norip_20260912/cases/norip/norip_adaptive/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_bare	norip	cascade	5.24	0.000	0	0	pi4_bare_norip_20260912/cases/norip/norip_cascade/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_bare	norip	detector_only	5.56	0.999	599	0	pi4_bare_norip_20260912/cases/norip/norip_detector_only/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+pi4_bare	norip	max_throughput	7.18	4.293	2577	0	pi4_bare_norip_20260912/cases/norip/norip_max_throughput/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/PI4_CAMERA_ACCEPTANCE_V1.json)
+frdm	rip	detector_only	7.04	0.999	599	593	imx95_frdm_camera_20260912/cases/rip/rip_detector_only/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/FRDM_CAMERA_ACCEPTANCE_V1.json)
+frdm	rip	adaptive	rej.	0.000	0	0	imx95_frdm_camera_retry2_20260912/cases/rip/rip_adaptive/result.json	power_rejected
+frdm	rip	cascade	7.07	0.990	594	592	imx95_frdm_camera_retry2_20260912/cases/rip/rip_cascade/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/FRDM_CAMERA_ACCEPTANCE_V1.json)
+frdm	rip	max_throughput	8.40	19.466	11680	11609	imx95_frdm_camera_tail_20260912/cases/rip/rip_max_throughput/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/FRDM_CAMERA_ACCEPTANCE_V1.json)
+frdm	norip	adaptive	rej.	0.000	0	0	imx95_frdm_norip_20260912/cases/norip/norip_adaptive/result.json	power_rejected
+frdm	norip	cascade	7.03	0.000	0	0	imx95_frdm_norip_20260912/cases/norip/norip_cascade/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/FRDM_CAMERA_ACCEPTANCE_V1.json)
+frdm	norip	detector_only	rej.	0.000	0	0	imx95_frdm_norip_20260912/cases/norip/norip_detector_only/result.json	power_rejected
+frdm	norip	max_throughput	8.38	19.607	11765	14	imx95_frdm_norip_20260912/cases/norip/norip_max_throughput/result.json	accepted_for_descriptive_camera_power_and_cadence (paper_writing_20260912/FRDM_CAMERA_ACCEPTANCE_V1.json)

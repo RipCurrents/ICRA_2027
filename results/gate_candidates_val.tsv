@@ -1,0 +1,41 @@
+gate	stem	thr	rip_alarmed	norip_false_episode	detector_runs_frac	video_F2
+yolo26n-224 (current)	3_cls_yolo26_nano_224_best_e50_j2856380	0.1	0.800	0.184	0.104	0.795
+yolo26n-224 (current)	3_cls_yolo26_nano_224_best_e50_j2856380	0.2	0.800	0.158	0.097	0.800
+yolo26n-224 (current)	3_cls_yolo26_nano_224_best_e50_j2856380	0.3	0.800	0.158	0.092	0.800
+yolo26n-224 (current)	3_cls_yolo26_nano_224_best_e50_j2856380	0.4	0.800	0.105	0.089	0.811
+yolo26n-224 (current)	3_cls_yolo26_nano_224_best_e50_j2856380	0.5	0.800	0.105	0.085	0.811
+yolo26n-224 (current)	3_cls_yolo26_nano_224_best_e50_j2856380	0.6	0.800	0.105	0.082	0.811
+yolo26n-224 (current)	3_cls_yolo26_nano_224_best_e50_j2856380	0.7	0.800	0.053	0.079	0.822
+yolo26n-224 (current)	3_cls_yolo26_nano_224_best_e50_j2856380	0.8	0.800	0.053	0.076	0.822
+yolo26s-224	7_cls_yolo26_small_224_best_e35_j2856386	0.1	0.767	0.132	0.093	0.777
+yolo26s-224	7_cls_yolo26_small_224_best_e35_j2856386	0.2	0.767	0.132	0.089	0.777
+yolo26s-224	7_cls_yolo26_small_224_best_e35_j2856386	0.3	0.767	0.105	0.086	0.782
+yolo26s-224	7_cls_yolo26_small_224_best_e35_j2856386	0.4	0.767	0.105	0.084	0.782
+yolo26s-224	7_cls_yolo26_small_224_best_e35_j2856386	0.5	0.767	0.105	0.081	0.782
+yolo26s-224	7_cls_yolo26_small_224_best_e35_j2856386	0.6	0.767	0.105	0.079	0.782
+yolo26s-224	7_cls_yolo26_small_224_best_e35_j2856386	0.7	0.767	0.105	0.077	0.782
+yolo26s-224	7_cls_yolo26_small_224_best_e35_j2856386	0.8	0.767	0.079	0.075	0.788
+yolo26m-224	11_cls_yolo26_medium_224_best_e39_j2856390	0.1	0.867	0.158	0.111	0.855
+yolo26m-224	11_cls_yolo26_medium_224_best_e39_j2856390	0.2	0.867	0.158	0.104	0.855
+yolo26m-224	11_cls_yolo26_medium_224_best_e39_j2856390	0.3	0.867	0.158	0.099	0.855
+yolo26m-224	11_cls_yolo26_medium_224_best_e39_j2856390	0.4	0.867	0.132	0.093	0.861
+yolo26m-224	11_cls_yolo26_medium_224_best_e39_j2856390	0.5	0.867	0.105	0.087	0.867
+yolo26m-224	11_cls_yolo26_medium_224_best_e39_j2856390	0.6	0.833	0.105	0.084	0.839
+yolo26m-224	11_cls_yolo26_medium_224_best_e39_j2856390	0.7	0.800	0.079	0.081	0.816
+yolo26m-224	11_cls_yolo26_medium_224_best_e39_j2856390	0.8	0.767	0.079	0.078	0.788
+yolo26x-224	19_cls_yolo26_xlarge_224_best_e53_j2856398	0.1	0.833	0.211	0.117	0.817
+yolo26x-224	19_cls_yolo26_xlarge_224_best_e53_j2856398	0.2	0.833	0.158	0.111	0.828
+yolo26x-224	19_cls_yolo26_xlarge_224_best_e53_j2856398	0.3	0.833	0.158	0.107	0.828
+yolo26x-224	19_cls_yolo26_xlarge_224_best_e53_j2856398	0.4	0.833	0.132	0.104	0.833
+yolo26x-224	19_cls_yolo26_xlarge_224_best_e53_j2856398	0.5	0.833	0.132	0.100	0.833
+yolo26x-224	19_cls_yolo26_xlarge_224_best_e53_j2856398	0.6	0.833	0.105	0.096	0.839
+yolo26x-224	19_cls_yolo26_xlarge_224_best_e53_j2856398	0.7	0.833	0.105	0.093	0.839
+yolo26x-224	19_cls_yolo26_xlarge_224_best_e53_j2856398	0.8	0.800	0.105	0.089	0.811
+resnet34-640	7_cls_resnet_resnet34_640_best_e19_j2857467	0.1	0.800	0.132	0.099	0.805
+resnet34-640	7_cls_resnet_resnet34_640_best_e19_j2857467	0.2	0.800	0.079	0.093	0.816
+resnet34-640	7_cls_resnet_resnet34_640_best_e19_j2857467	0.3	0.800	0.079	0.089	0.816
+resnet34-640	7_cls_resnet_resnet34_640_best_e19_j2857467	0.4	0.800	0.079	0.087	0.816
+resnet34-640	7_cls_resnet_resnet34_640_best_e19_j2857467	0.5	0.800	0.053	0.084	0.822
+resnet34-640	7_cls_resnet_resnet34_640_best_e19_j2857467	0.6	0.800	0.026	0.080	0.828
+resnet34-640	7_cls_resnet_resnet34_640_best_e19_j2857467	0.7	0.800	0.026	0.079	0.828
+resnet34-640	7_cls_resnet_resnet34_640_best_e19_j2857467	0.8	0.800	0.026	0.076	0.828

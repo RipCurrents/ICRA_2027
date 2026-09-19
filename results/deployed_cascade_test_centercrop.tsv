@@ -1,0 +1,57 @@
+model	config	rip_alarmed	ci_lo	ci_hi	latency_median_s	latency_p90_s	norip_false_episode	ci_lo	ci_hi	detector_runs_frac	video_F2
+deployed t1@384 (Orin FP16)	gate .50, 1 Hz	0.613	0.452	0.774	0.0	1.4	0.100	0.025	0.200	0.095	0.646
+deployed t1@384 (Orin FP16)	no gate, 1 Hz	0.742	0.581	0.903	0.0	7.4	0.175	0.075	0.300	0.206	0.747
+deployed t1@384 (Orin FP16)	gate .50, 0.2 Hz	0.581	0.387	0.742	0.0	1.5	0.075	0.000	0.175	0.020	0.621
+deployed t1@384 (Orin FP16)	gate .50, 5 Hz	0.677	0.516	0.839	0.0	4.6	0.125	0.025	0.250	0.452	0.700
+sparse-label baseline canon@384 (Orin FP16)	gate .50, 1 Hz	0.613	0.452	0.774	0.0	3.4	0.125	0.025	0.225	0.095	0.642
+sparse-label baseline canon@384 (Orin FP16)	no gate, 1 Hz	0.677	0.516	0.839	0.0	2.4	0.225	0.100	0.351	0.206	0.682
+sparse-label baseline canon@384 (Orin FP16)	gate .50, 0.2 Hz	0.581	0.419	0.742	0.0	5.0	0.075	0.000	0.175	0.020	0.621
+sparse-label baseline canon@384 (Orin FP16)	gate .50, 5 Hz	0.645	0.452	0.807	0.0	2.4	0.150	0.050	0.275	0.452	0.667
+board-fitted Orin: dense yolo26s@384 (FP16)	gate .50, 1 Hz	0.613	0.419	0.774	0.0	0.3	0.125	0.025	0.225	0.095	0.642
+board-fitted Orin: dense yolo26s@384 (FP16)	no gate, 1 Hz	0.742	0.581	0.871	0.0	1.6	0.275	0.150	0.425	0.206	0.728
+board-fitted Orin: dense yolo26s@384 (FP16)	gate .50, 0.2 Hz	0.613	0.452	0.774	0.0	0.8	0.050	0.000	0.125	0.020	0.655
+board-fitted Orin: dense yolo26s@384 (FP16)	gate .50, 5 Hz	0.677	0.516	0.839	0.0	1.4	0.200	0.075	0.325	0.452	0.686
+board-fitted Orin: expert yolo26s@384 (FP16)	gate .50, 1 Hz	0.645	0.452	0.806	0.0	1.4	0.125	0.025	0.225	0.095	0.671
+board-fitted Orin: expert yolo26s@384 (FP16)	no gate, 1 Hz	0.742	0.581	0.871	0.0	1.0	0.500	0.350	0.650	0.206	0.689
+board-fitted Orin: expert yolo26s@384 (FP16)	gate .50, 0.2 Hz	0.613	0.452	0.774	0.0	1.0	0.075	0.000	0.151	0.020	0.651
+board-fitted Orin: expert yolo26s@384 (FP16)	gate .50, 5 Hz	0.710	0.548	0.871	0.0	1.4	0.175	0.075	0.300	0.452	0.719
+board-fitted Orin: RF-DETR-n@384 (FP16, val winner, INTER_AREA)	gate .50, 1 Hz	0.742	0.581	0.903	0.0	1.0	0.075	0.000	0.175	0.095	0.767
+board-fitted Orin: RF-DETR-n@384 (FP16, val winner, INTER_AREA)	no gate, 1 Hz	0.871	0.742	0.968	0.0	0.4	0.375	0.225	0.525	0.206	0.813
+board-fitted Orin: RF-DETR-n@384 (FP16, val winner, INTER_AREA)	gate .50, 0.2 Hz	0.677	0.516	0.839	0.0	0.0	0.075	0.000	0.150	0.020	0.709
+board-fitted Orin: RF-DETR-n@384 (FP16, val winner, INTER_AREA)	gate .50, 5 Hz	0.806	0.677	0.935	0.0	0.6	0.150	0.050	0.275	0.452	0.806
+board-fitted Orin: RF-DETR-s@512 (FP16, INTER_AREA)	gate .50, 1 Hz	0.742	0.581	0.871	0.0	0.8	0.125	0.025	0.225	0.095	0.757
+board-fitted Orin: RF-DETR-s@512 (FP16, INTER_AREA)	no gate, 1 Hz	0.871	0.742	0.968	0.0	0.0	0.375	0.225	0.525	0.206	0.813
+board-fitted Orin: RF-DETR-s@512 (FP16, INTER_AREA)	gate .50, 0.2 Hz	0.710	0.548	0.871	0.0	0.0	0.075	0.000	0.175	0.020	0.738
+board-fitted Orin: RF-DETR-s@512 (FP16, INTER_AREA)	gate .50, 5 Hz	0.806	0.677	0.935	0.0	0.5	0.125	0.025	0.225	0.452	0.812
+board-fitted Orin: RF-DETR-m@576 (FP16, INTER_AREA)	gate .50, 1 Hz	0.742	0.581	0.903	0.0	0.8	0.100	0.025	0.200	0.095	0.762
+board-fitted Orin: RF-DETR-m@576 (FP16, INTER_AREA)	no gate, 1 Hz	0.903	0.806	1.000	0.0	0.0	0.275	0.150	0.425	0.206	0.859
+board-fitted Orin: RF-DETR-m@576 (FP16, INTER_AREA)	gate .50, 0.2 Hz	0.710	0.548	0.871	0.0	0.0	0.050	0.000	0.125	0.020	0.743
+board-fitted Orin: RF-DETR-m@576 (FP16, INTER_AREA)	gate .50, 5 Hz	0.774	0.613	0.903	0.0	1.0	0.100	0.025	0.200	0.452	0.789
+board-fitted RPi 5: RF-DETR-n@384 (ORT CPU, val winner, INTER_AREA, 400 ms)	gate .50, 1 Hz	0.742	0.581	0.903	0.0	1.0	0.075	0.000	0.175	0.095	0.767
+board-fitted RPi 5: RF-DETR-n@384 (ORT CPU, val winner, INTER_AREA, 400 ms)	no gate, 1 Hz	0.871	0.742	0.968	0.0	0.4	0.375	0.250	0.525	0.206	0.813
+board-fitted RPi 5: RF-DETR-n@384 (ORT CPU, val winner, INTER_AREA, 400 ms)	gate .50, 0.2 Hz	0.677	0.516	0.839	0.0	0.0	0.075	0.000	0.175	0.020	0.709
+board-fitted RPi 5: RF-DETR-n@384 (ORT CPU, val winner, INTER_AREA, 400 ms)	gate .50, 5 Hz	0.806	0.677	0.935	0.0	0.6	0.150	0.050	0.275	0.452	0.806
+board-fitted RPi 5: RF-DETR-s@512 (ORT CPU, INTER_AREA, 818 ms)	gate .50, 1 Hz	0.742	0.581	0.871	0.0	0.8	0.125	0.025	0.225	0.095	0.757
+board-fitted RPi 5: RF-DETR-s@512 (ORT CPU, INTER_AREA, 818 ms)	no gate, 1 Hz	0.871	0.742	0.968	0.0	0.0	0.375	0.225	0.501	0.206	0.813
+board-fitted RPi 5: RF-DETR-s@512 (ORT CPU, INTER_AREA, 818 ms)	gate .50, 0.2 Hz	0.710	0.548	0.871	0.0	0.0	0.100	0.025	0.200	0.020	0.733
+board-fitted RPi 5: RF-DETR-s@512 (ORT CPU, INTER_AREA, 818 ms)	gate .50, 5 Hz	0.806	0.645	0.935	0.0	0.5	0.125	0.025	0.250	0.452	0.812
+board-fitted RPi 4 heatsink: expert yolo26s@384 (ORT CPU, val winner among fitting, 411 ms)	gate .50, 1 Hz	0.645	0.484	0.806	0.0	1.4	0.125	0.050	0.225	0.095	0.671
+board-fitted RPi 4 heatsink: expert yolo26s@384 (ORT CPU, val winner among fitting, 411 ms)	no gate, 1 Hz	0.742	0.581	0.871	0.0	1.0	0.500	0.350	0.626	0.206	0.689
+board-fitted RPi 4 heatsink: expert yolo26s@384 (ORT CPU, val winner among fitting, 411 ms)	gate .50, 0.2 Hz	0.613	0.452	0.774	0.0	1.0	0.075	0.000	0.175	0.020	0.651
+board-fitted RPi 4 heatsink: expert yolo26s@384 (ORT CPU, val winner among fitting, 411 ms)	gate .50, 5 Hz	0.710	0.548	0.871	0.0	1.4	0.175	0.075	0.300	0.452	0.719
+board-fitted RPi 4 bare: expert yolo26s@384 (ORT CPU, 424 ms)	gate .50, 1 Hz	0.645	0.484	0.806	0.0	1.4	0.125	0.050	0.250	0.095	0.671
+board-fitted RPi 4 bare: expert yolo26s@384 (ORT CPU, 424 ms)	no gate, 1 Hz	0.742	0.581	0.903	0.0	1.0	0.500	0.350	0.650	0.206	0.689
+board-fitted RPi 4 bare: expert yolo26s@384 (ORT CPU, 424 ms)	gate .50, 0.2 Hz	0.613	0.452	0.774	0.0	1.0	0.075	0.000	0.175	0.020	0.651
+board-fitted RPi 4 bare: expert yolo26s@384 (ORT CPU, 424 ms)	gate .50, 5 Hz	0.710	0.548	0.871	0.0	1.4	0.175	0.075	0.300	0.452	0.719
+board-fitted Jetson Nano: expert yolo26s@384 (TRT 8.2 FP16, 53 ms)	gate .50, 1 Hz	0.645	0.484	0.806	0.0	1.4	0.150	0.050	0.275	0.095	0.667
+board-fitted Jetson Nano: expert yolo26s@384 (TRT 8.2 FP16, 53 ms)	no gate, 1 Hz	0.742	0.581	0.871	0.0	1.0	0.500	0.350	0.650	0.206	0.689
+board-fitted Jetson Nano: expert yolo26s@384 (TRT 8.2 FP16, 53 ms)	gate .50, 0.2 Hz	0.613	0.452	0.774	0.0	1.0	0.075	0.000	0.150	0.020	0.651
+board-fitted Jetson Nano: expert yolo26s@384 (TRT 8.2 FP16, 53 ms)	gate .50, 5 Hz	0.710	0.548	0.871	0.0	1.4	0.175	0.075	0.300	0.452	0.719
+i.MX95 CPU fallback: dense yolo26n@384 (ORT FP32)	gate .50, 1 Hz	0.613	0.452	0.775	0.0	1.4	0.100	0.025	0.200	0.095	0.646
+i.MX95 CPU fallback: dense yolo26n@384 (ORT FP32)	no gate, 1 Hz	0.742	0.581	0.871	0.0	7.4	0.175	0.075	0.300	0.206	0.747
+i.MX95 CPU fallback: dense yolo26n@384 (ORT FP32)	gate .50, 0.2 Hz	0.581	0.419	0.742	0.0	1.5	0.075	0.000	0.175	0.020	0.621
+i.MX95 CPU fallback: dense yolo26n@384 (ORT FP32)	gate .50, 5 Hz	0.677	0.484	0.839	0.0	4.6	0.125	0.025	0.225	0.452	0.700
+i.MX95 NPU: QAT2-adapted dense yolo26n@384 (native images)	gate .50, 1 Hz	0.613	0.419	0.774	0.0	0.0	0.125	0.049	0.250	0.095	0.642
+i.MX95 NPU: QAT2-adapted dense yolo26n@384 (native images)	no gate, 1 Hz	0.710	0.548	0.871	0.0	2.8	0.275	0.150	0.425	0.206	0.701
+i.MX95 NPU: QAT2-adapted dense yolo26n@384 (native images)	gate .50, 0.2 Hz	0.613	0.452	0.774	0.0	0.0	0.075	0.000	0.175	0.020	0.651
+i.MX95 NPU: QAT2-adapted dense yolo26n@384 (native images)	gate .50, 5 Hz	0.677	0.516	0.839	0.0	3.0	0.150	0.050	0.250	0.452	0.695

@@ -1,0 +1,22 @@
+timestamp	detector	gate	k	n	gate_thr	selected_on	split	F2_50	P50	R50	frac_detector_run	compute_ratio	F2_always_on
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	1	1	0.10	fixed	test	0.5138	0.5813	0.4993	0.532	0.636	0.5130
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	1	1	0.30	fixed	test	0.5118	0.5837	0.4965	0.493	0.597	0.5130
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	1	1	0.50	val	test	0.5110	0.5892	0.4946	0.470	0.573	0.5130
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	2	3	0.10	fixed	test	0.5134	0.5810	0.4989	0.532	0.635	0.5130
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	2	3	0.30	fixed	test	0.5122	0.5834	0.4970	0.493	0.597	0.5130
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	2	3	0.50	val	test	0.5110	0.5891	0.4946	0.470	0.574	0.5130
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	3	5	0.10	fixed	test	0.5136	0.5813	0.4991	0.532	0.635	0.5130
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	3	5	0.30	fixed	test	0.5121	0.5831	0.4970	0.493	0.597	0.5130
+2026-08-26 18:58	dense_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	3	5	0.50	val	test	0.5109	0.5892	0.4944	0.470	0.573	0.5130
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	1	1	0.00	val	test	0.4967	0.5315	0.4887	1.000	1.103	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	1	1	0.10	fixed	test	0.4914	0.5412	0.4803	0.532	0.636	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	1	1	0.30	fixed	test	0.4859	0.5407	0.4739	0.493	0.597	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	1	1	0.50	fixed	test	0.4837	0.5436	0.4708	0.470	0.573	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	2	3	0.00	val	test	0.4967	0.5315	0.4887	1.000	1.103	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	2	3	0.10	fixed	test	0.4911	0.5414	0.4800	0.532	0.635	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	2	3	0.30	fixed	test	0.4855	0.5404	0.4735	0.493	0.597	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	2	3	0.50	fixed	test	0.4838	0.5431	0.4709	0.470	0.574	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	3	5	0.00	val	test	0.4967	0.5315	0.4887	1.000	1.103	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	3	5	0.10	fixed	test	0.4913	0.5412	0.4802	0.532	0.635	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	3	5	0.30	fixed	test	0.4852	0.5405	0.4730	0.493	0.597	0.4967
+2026-08-26 18:58	canonical_yolo26n_s1	3_cls_yolo26_nano_224_best_e50_j2856380	3	5	0.50	fixed	test	0.4835	0.5430	0.4706	0.470	0.573	0.4967

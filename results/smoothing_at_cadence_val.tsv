@@ -1,0 +1,19 @@
+stem	cadence	kept_frames	variant	best_conf	val_F2	val_P	val_R
+t1_nano_k025_t024_s1_n_s1_best_e2	5 Hz (sampled)	10369	raw	0.04	0.5026	0.5184	0.4988
+t1_nano_k025_t024_s1_n_s1_best_e2	5 Hz (sampled)	10369	causal_k1	0.02	0.5299	0.5441	0.5265
+t1_nano_k025_t024_s1_n_s2_best_e2	5 Hz (sampled)	10369	raw	0.06	0.5322	0.5356	0.5313
+t1_nano_k025_t024_s1_n_s2_best_e2	5 Hz (sampled)	10369	causal_k1	0.03	0.5588	0.5641	0.5575
+t1_nano_k025_t024_s1_n_s3_best_e2	5 Hz (sampled)	10369	raw	0.07	0.5290	0.5468	0.5248
+t1_nano_k025_t024_s1_n_s3_best_e2	5 Hz (sampled)	10369	causal_k1	0.05	0.5496	0.6030	0.5377
+t1_nano_k025_t024_s1_n_s1_best_e2	1 Hz	2101	raw	0.05	0.4988	0.5371	0.4901
+t1_nano_k025_t024_s1_n_s1_best_e2	1 Hz	2101	causal_k1	0.01	0.5260	0.4801	0.5388
+t1_nano_k025_t024_s1_n_s2_best_e2	1 Hz	2101	raw	0.05	0.5315	0.5098	0.5372
+t1_nano_k025_t024_s1_n_s2_best_e2	1 Hz	2101	causal_k1	0.04	0.5618	0.6005	0.5529
+t1_nano_k025_t024_s1_n_s3_best_e2	1 Hz	2101	raw	0.11	0.5290	0.6029	0.5132
+t1_nano_k025_t024_s1_n_s3_best_e2	1 Hz	2101	causal_k1	0.02	0.5459	0.5056	0.5570
+t1_nano_k025_t024_s1_n_s1_best_e2	0.2 Hz	453	raw	0.05	0.4788	0.5214	0.4692
+t1_nano_k025_t024_s1_n_s1_best_e2	0.2 Hz	453	causal_k1	0.02	0.5156	0.5500	0.5077
+t1_nano_k025_t024_s1_n_s2_best_e2	0.2 Hz	453	raw	0.10	0.5477	0.6070	0.5346
+t1_nano_k025_t024_s1_n_s2_best_e2	0.2 Hz	453	causal_k1	0.01	0.5832	0.5131	0.6038
+t1_nano_k025_t024_s1_n_s3_best_e2	0.2 Hz	453	raw	0.09	0.5504	0.5851	0.5423
+t1_nano_k025_t024_s1_n_s3_best_e2	0.2 Hz	453	causal_k1	0.05	0.5769	0.6282	0.5654
