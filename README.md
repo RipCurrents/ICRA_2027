@@ -5,9 +5,9 @@ Code, result tables, label views, models, measurement scripts and the app for th
 
 ## Video attachment
 
-[![Video attachment: rip-current monitoring on low-power boards (155 s)](video/poster.jpg)](video/icra2027_video.mp4)
+[![Video attachment: rip-current monitoring on low-power boards (169 s)](video/poster.jpg)](video/icra2027_video.mp4)
 
-`video/icra2027_video.mp4` (155 s, 5.3 MB, H.264): the paper's video attachment; click the image to play it on GitHub.
+**[Play in the browser](https://ripcurrents.github.io/ICRA_2027/video/icra2027_video.mp4)** - `video/icra2027_video.mp4` (169 s, 8.9 MB, H.264) is the same file in this repository, for download.
 
 | Folder | Content |
 |---|---|
